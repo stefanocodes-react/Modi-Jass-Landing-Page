@@ -14,6 +14,8 @@ export default {
         color: {
           primary: "#2f468c",
           secondary: "#1e9eef",
+          dark: "#0e0c15",
+          light: "#f2f2f2",
         },
         stroke: {
           1: "#CCCCCC",
@@ -89,7 +91,7 @@ export default {
             {},
         },
         ".h1": {
-          "@apply text-center tracking-[.03em] font-semibold text-[2rem] leading-[2.8rem] md:text-[2.5rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply text-color-light text-center tracking-[.03em] font-semibold text-[2rem] leading-[2.8rem] md:text-[2.5rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
@@ -100,14 +102,14 @@ export default {
           "@apply text-[1.375rem] leading-normal md:text-[1.5rem]": {},
         },
         ".body-1": {
-          "@apply text-[1rem] font-satoshi leading-[1.5rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] lg:text-[1.25rem] lg:leading-8":
             {},
         },
         ".tagline": {
           "@apply font-satoshi font-light text-[1rem] lg:text-[1.125rem]": {},
         },
         ".button": {
-          "@apply capitalize px-6 py-3 rounded-[0.3125rem] font-satoshi font-medium text-[1rem] md:text-[1.125rem] lg:text-[1.25rem]":
+          "@apply capitalize px-6 py-3 rounded-[0.3125rem] font-satoshi font-medium text-[1rem] md:text-[1.125rem]":
             {},
         },
       });

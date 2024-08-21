@@ -3,8 +3,10 @@ const Button = ({ buttonType, children, href, onClick }) => {
     return (
       <button
         className={`${
-          buttonType === "primary" ? "bg-color-primary" : "border border-white"
-        } button`}
+          buttonType === "primary"
+            ? "bg-color-primary hover:opacity-70"
+            : "border border-white hover:bg-white hover:text-black"
+        } button transition-all`}
         onClick={onClick}
       >
         {children}
