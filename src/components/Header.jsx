@@ -1,8 +1,9 @@
 import Button from "./Button";
 import smiles from "../assets/vectors/Smiles.svg";
+import heroImg from "../assets/vectors/HeroVector.svg";
 const Header = () => {
   return (
-    <header className="flex min-h-screen flex-col justify-start items-center pt-8 gap-8 container">
+    <header className="flex min-h-screen flex-col justify-start items-center pt-8 gap-8 container md:pt-10 lg:pt-12 xl:pt-16">
       <div className="flex flex-col gap-4">
         <h1 className="h1">
           Grow Your Brand on X and Get Your First Client in 30 Days
@@ -19,6 +20,9 @@ const Header = () => {
       <div className="flex flex-wrap border items-center justify-center border-white/20 px-2 py-1.5 gap-2 rounded-md">
         <img src={smiles} alt="happy faces of previous customers" />
         <p className="leading-8 text-sm">100+ are making money on X</p>
+      </div>
+      <div>
+        <img src={heroImg} alt="" />
       </div>
     </header>
   );

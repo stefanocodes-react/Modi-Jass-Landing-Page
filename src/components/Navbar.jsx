@@ -1,7 +1,8 @@
 import Button from "./Button";
 import logo from "../assets/vectors/modi_jass_logo.svg";
 import { navlinks } from "../constants/navItems.js";
-
+// Render all navigation links
+// TODO: make the nav fixed
 const NavItems = ({ links }) => {
   return links.map((link) => {
     return (
@@ -18,7 +19,7 @@ const NavItems = ({ links }) => {
 };
 const Navbar = () => {
   return (
-    <div className="">
+    <div>
       <div className="mx-auto container w-full backdrop-blur-sm z-1">
         <div className="flex pt-8 items-center justify-between">
           <div className="flex justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
