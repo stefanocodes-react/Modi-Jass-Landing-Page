@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Problem />
       <Solution />
-      {/* <Results /> */}
+      <Results />
     </div>
   );
 }
