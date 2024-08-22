@@ -17,7 +17,7 @@ const Problem = () => {
     >
       <div className="  mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {problems.map((problem) => (
-          <Card content={problem} />
+          <Card key={problem.id} content={problem} />
         ))}
       </div>
     </Section>

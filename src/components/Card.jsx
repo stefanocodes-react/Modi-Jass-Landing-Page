@@ -1,4 +1,4 @@
-const Card = ({ content }) => {
+const Card = ({ content, color }) => {
   return (
     <div
       className={`flex flex-col gap-4 rounded-xl border border-gray-800 p-8 shadow-xl transition`}

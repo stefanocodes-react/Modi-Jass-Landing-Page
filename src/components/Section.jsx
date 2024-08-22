@@ -16,7 +16,9 @@ const Section = ({
           <div className="flex text-center flex-col items-center justify-center gap-4 md:w-4/6">
             <h2 className="h2 text-center capitalize">{sectionTitle}</h2>
             {sectionDescription.map((description) => (
-              <p className="body-1 text-center text-gray-300">{description}</p>
+              <p key={description} className="body-1 text-center text-gray-300">
+                {description}
+              </p>
             ))}
             {/* <p className="body-1 text-center text-gray-300">
               {sectionDescription}
