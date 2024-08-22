@@ -3,7 +3,7 @@ import smiles from "../assets/vectors/Smiles.svg";
 import growAudienceVector from "../assets/vectors/HeroVector.svg";
 import Navbar from "./Navbar";
 
-const Header = () => {
+const Header = ({ toggleModal }) => {
   return (
     <div className="relative">
       <div className="absolute top-0 z-[-1] h-full w-full bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:40px_40px]"></div>
@@ -26,7 +26,11 @@ const Header = () => {
             children={"Build Your Brand Now"}
             buttonType={"primary"}
           />
-          <Button children={"Grab Your Free Guide"} buttonType={"secondary"} />
+          <Button
+            children={"Grab Your Free Guide"}
+            onClick={toggleModal}
+            buttonType={"secondary"}
+          />
         </div>
         <div className="flex flex-wrap border items-center justify-center border-white/20 px-2 py-1.5 gap-2 rounded-md">
           <img src={smiles} alt="happy faces of previous customers" />

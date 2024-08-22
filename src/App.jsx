@@ -4,14 +4,19 @@ import Modal from "./components/Modal.jsx";
 import Problem from "./components/Problem.jsx";
 import Results from "./components/Results.jsx";
 import Solution from "./components/Solution.jsx";
+import { useState } from "react";
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div>
-      <Header />
+      <Header toggleModal={toggleModal} />
       <Problem />
       <Solution />
       <Results />
-      {/* <Modal /> */}
+      <Modal isOpen={isOpen} toggleModal={toggleModal} />
     </div>
   );
 }

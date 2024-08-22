@@ -19,6 +19,7 @@ export default {
           red: "#f06868",
           body: "#00091d",
           green: "#13ce66",
+          modal: "#2e2f3a",
         },
         stroke: {
           1: "#CCCCCC",
