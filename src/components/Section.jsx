@@ -13,13 +13,13 @@ const Section = ({
           <div className="border border-white py-1 px-3 rounded-2xl">
             <span className="text-sm capitalize font-satoshi ">{tagline}</span>
           </div>
-          <div className="flex text-center flex-col items-center justify-center gap-4 md:w-4/6">
+          <div className="flex text-center flex-col items-center justify-center gap-4">
             <h2 className="h2 text-center capitalize">{sectionTitle}</h2>
             {sectionDescription &&
               sectionDescription.map((description) => (
                 <p
                   key={description}
-                  className="body-1 text-center text-gray-300"
+                  className="body-1 text-center text-gray-300 md:w-4/6"
                 >
                   {description}
                 </p>

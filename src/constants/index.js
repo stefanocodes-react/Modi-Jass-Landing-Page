@@ -4,6 +4,15 @@ import problemicon3 from "../assets/problem/problemicon3.svg";
 import solutionicon1 from "../assets/solution/solutionicon1.svg";
 import solutionicon2 from "../assets/solution/solutionicon2.svg";
 import solutionicon3 from "../assets/solution/solutionicon3.svg";
+import review1 from "../assets/testimonials/review1.jpeg";
+import review2 from "../assets/testimonials/review2.jpeg";
+import review3 from "../assets/testimonials/review3.jpeg";
+import review4 from "../assets/testimonials/review4.jpeg";
+import review5 from "../assets/testimonials/review5.jpeg";
+import review6 from "../assets/testimonials/review6.jpeg";
+import review7 from "../assets/testimonials/review7.jpeg";
+import review8 from "../assets/testimonials/review8.jpeg";
+
 export const navlinks = [
   {
     id: "0",
@@ -74,3 +83,15 @@ export const solutions = [
     iconUrl: solutionicon3,
   },
 ];
+
+export const reviews = [
+  review1,
+  review8,
+  review3,
+  review4,
+  review5,
+  review6,
+  review7,
+  review2,
+];
+export default reviews;

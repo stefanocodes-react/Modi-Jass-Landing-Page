@@ -1,7 +1,6 @@
 import React from "react";
-
-const Tesimonial = () => {
-  return <div></div>;
+const Review = ({ src }) => {
+  return <img src={src} alt="testimonial" />;
 };
 
-export default Tesimonial;
+export default Review;
