@@ -11,15 +11,11 @@
     --font-satoshi: "Satoshi", sans-serif;
     --font-clash: "Clash Display", sans-serif;
     color-scheme: dark;
+
 }
 
-
-.text {
-    color: rgba(240, 104, 104, .5);
-}
-
-* {
-    scroll-behavior: smooth
+html {
+    scroll-behavior: smooth;
 }
 
 @layer base {
