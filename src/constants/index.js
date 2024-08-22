@@ -28,22 +28,22 @@ export const navlinks = [
 export const problems = [
   {
     id: "0",
-    title: "Time Consuming",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Saturated Market",
+    text: `Within your first week on X, you will see that there are 100s of other creators offering the EXACT same service/product as you. And only 1% people choose you to be their “Go-to"`,
     iconUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: problemicon1,
   },
   {
     id: "1",
-    title: "Complexity",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Writing & Content",
+    text: "90% of creators don’t know how to write or what to write about, and that’s why they gain 10 followers every 10 years and land 0 clients every 100 years.",
     iconUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: problemicon2,
   },
   {
     id: "2",
-    title: "Wasteful Competition",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Offer",
+    text: "I will grow my followers then monetize later. Every single creator thought this and they still fail to see any real progress in their business.",
     iconUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: problemicon3,
   },

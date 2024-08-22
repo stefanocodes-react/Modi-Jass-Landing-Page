@@ -6,14 +6,18 @@ const Problem = () => {
   return (
     <Section
       id={"problem"}
+      className={"gap-4"}
       tagline={"the problem"}
       sectionTitle={"You are doing it the wrong way"}
-      sectionDescription={`Just like me 2 years ago– You’re probably stuck in a job you don’t like while 
-studying for a degree you don’t need…`}
+      sectionDescription={[
+        `One year ago I started building my brand on X.`,
+        ` I got 900 followers but made $0.`,
+        `And like me you’ve probably gone down the “Monetize on X” Rabbit hole, but here’s the problem…`,
+      ]}
     >
       <div className="  mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {problems.map((problem) => (
-          <Card content={problem} color={"#f06868"} />
+          <Card content={problem} />
         ))}
       </div>
     </Section>

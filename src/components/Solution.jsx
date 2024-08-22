@@ -7,11 +7,15 @@ const Solution = () => {
       id={"problem"}
       tagline={"the solution"}
       sectionTitle={"there is a better way of doing it"}
-      sectionDescription={`Today I’m travelling the world and making 5x a doctor’s salary while working less than 2 hours a day.`}
+      sectionDescription={[
+        `at 900+ followers I closed my first client in 7 days.`,
+        `I started having success through outreach/content getting me clients and inbounds.`,
+        `because of these`,
+      ]}
     >
       <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {solutions.map((solution) => (
-          <Card content={solution} color={"#13ce66"} />
+          <Card content={solution} />
         ))}
       </div>
     </Section>
