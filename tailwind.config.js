@@ -18,6 +18,7 @@ export default {
           light: "#f2f2f2",
           red: "#f06868",
           body: "#00091d",
+          green: "#13ce66",
         },
         stroke: {
           1: "#CCCCCC",
@@ -109,7 +110,7 @@ export default {
           "@apply text-[1.375rem] leading-normal md:text-[1.5rem]": {},
         },
         ".body-1": {
-          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] md:text-[1.125rem] xl:text-[1.25rem] lg:leading-8":
+          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] md:text-[1.125rem] md:leading-8":
             {},
         },
         ".tagline": {
