@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card.jsx";
 import { problems } from "../constants/index.js";
 import Section from "../components/Section.jsx";
+import arrowDown from "../assets/vectors/arrow-down.svg";
 const Problem = () => {
   return (
     <Section
@@ -19,6 +20,9 @@ const Problem = () => {
         {problems.map((problem) => (
           <Card key={problem.id} content={problem} />
         ))}
+      </div>
+      <div className="flex flex-col items-center justify-center mt-4">
+        <img src={arrowDown} width={32} height={32} alt="" />
       </div>
     </Section>
   );

@@ -8,7 +8,7 @@ const Section = ({
 }) => {
   return (
     <section id={id} className={`bg-color-body`}>
-      <div className={`${className} container flex flex-col py-16`}>
+      <div className={`container flex flex-col py-16 ${className}`}>
         <div className="flex flex-col justify-center items-center gap-3">
           <div className="border border-white py-1 px-3 rounded-2xl">
             <span className="text-sm capitalize font-satoshi ">{tagline}</span>

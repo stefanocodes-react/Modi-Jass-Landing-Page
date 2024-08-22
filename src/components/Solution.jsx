@@ -1,11 +1,12 @@
 import Card from "./Card.jsx";
 import { solutions } from "../constants/index.js";
 import Section from "../components/Section.jsx";
+
 const Solution = () => {
   return (
     <Section
       id={"problem"}
-      className={"gap-4"}
+      className={"gap-4 pt-0"}
       tagline={"the solution"}
       sectionTitle={"there is a better way of doing it"}
       sectionDescription={[
