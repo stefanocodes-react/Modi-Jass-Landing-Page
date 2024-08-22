@@ -7,6 +7,7 @@ const Results = () => {
       sectionTitle={"Testimonials from people just like you"}
       sectionDescription={[
         "Look how many people are making money around the world right now...",
+        `You’re just 1 step away from getting results like this`,
       ]}
       tagline="results"
       id={"testimonial"}

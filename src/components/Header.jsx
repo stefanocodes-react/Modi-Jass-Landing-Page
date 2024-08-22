@@ -13,7 +13,8 @@ const Header = () => {
         {/* Header Section */}
         <div className="flex flex-col gap-4">
           <h1 className="h1 ">
-            Grow Your Brand on X and Get Your First Client in 30 Days
+            How To Grow Your Brand On X, Craft Your Offer, And Land Your First
+            Client In 30 Days With My 3-Step System
           </h1>
           <p className="body-1 text-center text-gray-300">
             Even if you’re new and know nothing about X.

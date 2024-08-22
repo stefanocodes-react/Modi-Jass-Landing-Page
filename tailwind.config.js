@@ -99,7 +99,7 @@ export default {
             {},
         },
         ".h1": {
-          "@apply text-color-light text-center tracking-[.03em] font-semibold text-[2rem] leading-[2.8rem] md:text-[2.5rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply w-full md:w-4/6 mx-auto text-color-light text-center tracking-[.03em] font-semibold text-[2rem] leading-[2.5rem] md:text-[2.5rem] md:leading-[3.5rem]":
             {},
         },
         ".h2": {
