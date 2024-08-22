@@ -5,6 +5,7 @@ const Solution = () => {
   return (
     <Section
       id={"problem"}
+      className={"gap-4"}
       tagline={"the solution"}
       sectionTitle={"there is a better way of doing it"}
       sectionDescription={[

@@ -1,7 +1,9 @@
 import problemicon1 from "../assets/problem/problemicon1.svg";
 import problemicon2 from "../assets/problem/problemicon2.svg";
 import problemicon3 from "../assets/problem/problemicon3.svg";
-import problemicon4 from "../assets/problem/problemicon4.svg";
+import solutionicon1 from "../assets/solution/solutionicon1.svg";
+import solutionicon2 from "../assets/solution/solutionicon2.svg";
+import solutionicon3 from "../assets/solution/solutionicon3.svg";
 export const navlinks = [
   {
     id: "0",
@@ -52,23 +54,23 @@ export const problems = [
 export const solutions = [
   {
     id: "0",
-    title: "Time Consuming",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Positioning",
+    text: "Get clear with your audience, and fix your content to become a creator worth following.",
     iconUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: problemicon1,
+    iconUrl: solutionicon1,
   },
   {
     id: "1",
-    title: "Complexity",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Content That Converts",
+    text: "Most X creators complain about “Writer’s Block”, You’ll never have that with our Idea gen System.",
     iconUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: problemicon2,
+    iconUrl: solutionicon2,
   },
   {
     id: "2",
-    title: "Wasteful Competition",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Offer Crafting",
+    text: "A brand without an offer is like a pizza without toppings—sure, it exists, but who wants that?",
     iconUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: problemicon3,
+    iconUrl: solutionicon3,
   },
 ];
