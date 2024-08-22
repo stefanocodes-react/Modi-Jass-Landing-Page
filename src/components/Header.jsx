@@ -21,7 +21,11 @@ const Header = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
-          <Button children={"Build Your Brand Now"} buttonType={"primary"} />
+          <Button
+            href={"https://x.com/MoayadAlazzawi"}
+            children={"Build Your Brand Now"}
+            buttonType={"primary"}
+          />
           <Button children={"Grab Your Free Guide"} buttonType={"secondary"} />
         </div>
         <div className="flex flex-wrap border items-center justify-center border-white/20 px-2 py-1.5 gap-2 rounded-md">
