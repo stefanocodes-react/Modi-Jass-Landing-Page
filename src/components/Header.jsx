@@ -5,10 +5,10 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <>
+    <div className="relative h-screen">
+      <div className="absolute top-0 z-[-1] h-screen w-screen bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
       <Navbar />
-      <header className="relative h-screen flex flex-col justify-start items-center gap-8 container md:pt-10">
-        <div className="absolute top-0 z-[-1] h-screen w-screen bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+      <header className="flex flex-col justify-start items-center gap-8 container md:pt-10">
         {/* Grid Background */}
         {/* Header Section */}
         <div className="flex flex-col gap-4">
@@ -34,7 +34,7 @@ const Header = () => {
           <img src={growAudienceVector} alt="" />
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

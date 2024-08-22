@@ -5,7 +5,7 @@ import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
 const Navbar = () => {
   return (
-    <div className="w-full bg-color-body">
+    <div className="w-full">
       <div className=" mx-auto container w-full flex py-6 bg-none items-center justify-between">
         <div className="flex justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
           <a
