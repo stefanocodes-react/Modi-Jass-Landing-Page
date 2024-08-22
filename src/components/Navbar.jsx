@@ -1,22 +1,8 @@
 import Button from "./Button";
 import logo from "../assets/vectors/modi_jass_logo.svg";
-import { navlinks } from "../constants/navItems.js";
-// Render all navigation links
+import { navlinks } from "../constants/index.js";
+import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
-const NavItems = ({ links }) => {
-  return links.map((link) => {
-    return (
-      <li key={link.id}>
-        <a
-          className="text-white/85 transition font-satoshi text-lg hover:text-color-primary"
-          href={`${link.url}`}
-        >
-          {link.title}
-        </a>
-      </li>
-    );
-  });
-};
 const Navbar = () => {
   return (
     <div>

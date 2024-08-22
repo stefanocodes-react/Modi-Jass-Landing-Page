@@ -16,6 +16,7 @@ export default {
           secondary: "#1e9eef",
           dark: "#0e0c15",
           light: "#f2f2f2",
+          red: "#f06868",
         },
         stroke: {
           1: "#CCCCCC",
@@ -69,8 +70,11 @@ export default {
       borderWidth: {
         DEFAULT: "0.0625rem",
       },
+
       backgroundImage: {
-        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+        "radial-gradient": "radial-gradient()",
+        "linear-gradient":
+          "linear-gradient(180deg, #062423, rgb(19, 20, 21) 22%, rgb(6, 36, 35) 33%, rgb(19, 20, 21) 44%, rgb(19, 20, 21) 48%,rgb(19, 20, 21) 54%, rgb(6, 36, 35) 67%, rgb(19, 20, 21) 98%, rgb(19, 20, 21) 121%)",
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
         "benefit-card-1": "url(assets/benefits/card-1.svg)",
@@ -79,6 +83,8 @@ export default {
         "benefit-card-4": "url(assets/benefits/card-4.svg)",
         "benefit-card-5": "url(assets/benefits/card-5.svg)",
         "benefit-card-6": "url(assets/benefits/card-6.svg)",
+        "linear-gradient-2":
+          "linear-gradient(    to bottom,    hsl(0, 0%, 0%) 0%,    hsl(210, 55.41%, 3.28%) 8.1%,    hsl(210, 55.41%, 12.15%) 15.5%,    hsl(210, 55.41%, 9.36%) 22.5%,     hsl(210, 55.41%, 9.36%)29%,    hsl(210, 55.41%, 9.36%) 35.3%,     hsl(210, 55.41%, 9.36%) 41.2%,     hsl(210, 55.41%, 9.36%)47.1%,    hsl(210, 55.41%, 21.52%) 52.9%,    hsl(210, 55.41%, 23.36%) 58.8%,    hsl(210, 55.41%, 24.98%) 64.7%,    hsl(210, 55.41%, 26.35%) 71%,    hsl(210, 55.41%, 27.47%) 77.5%,    hsl(210, 55.41%, 28.31%) 84.5%,    hsl(210, 55.41%, 28.83%) 91.9%,    hsl(210, 55.41%, 29.02%) 100%  );",
       },
     },
   },
@@ -95,14 +101,14 @@ export default {
             {},
         },
         ".h2": {
-          "@apply text-[1.875rem] leading-[2.25rem] text-center md:text-[2.25rem] md:leading-[2.7rem] lg:text-[2.75rem] lg:leading-[3.3rem]":
+          "@apply font-semibold font-clash text-[1.875rem] leading-[2.25rem] text-center md:text-[2.25rem] md:leading-[2.7rem] lg:text-[2.75rem] lg:leading-[3.3rem]":
             {},
         },
         ".h3": {
           "@apply text-[1.375rem] leading-normal md:text-[1.5rem]": {},
         },
         ".body-1": {
-          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] md:text-[1.125rem] xl:text-[1.25rem] lg:leading-8":
             {},
         },
         ".tagline": {

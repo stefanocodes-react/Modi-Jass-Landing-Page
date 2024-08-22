@@ -1,13 +1,11 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
-import Navbar from "./components/Navbar.jsx";
+import Problem from "./components/Problem.jsx";
 function App() {
   return (
-    <div className="bg-gradient-to-b from-color-dark from-5% via-color-primary via-60% to-color-primary">
-      <Navbar />
+    <div>
       <Header />
-      <Header />
-      <Header />
+      <Problem />
     </div>
   );
 }
