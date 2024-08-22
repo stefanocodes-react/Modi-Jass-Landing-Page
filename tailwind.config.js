@@ -17,6 +17,7 @@ export default {
           dark: "#0e0c15",
           light: "#f2f2f2",
           red: "#f06868",
+          body: "#00091d",
         },
         stroke: {
           1: "#CCCCCC",

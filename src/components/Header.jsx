@@ -7,9 +7,10 @@ const Header = () => {
   return (
     <>
       <Navbar />
-
-      <header className="flex relative flex-col justify-start items-center py-8 gap-8 container md:pt-10 lg:pt-12 xl:pt-16">
-        <div className="absolute top-0 z-[-2] h-full w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+      <header className="relative h-screen flex flex-col justify-start items-center gap-8 container md:pt-10">
+        <div className="absolute top-0 z-[-1] h-screen w-screen bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+        {/* Grid Background */}
+        {/* Header Section */}
         <div className="flex flex-col gap-4">
           <h1 className="h1 ">
             Grow Your Brand on X and Get Your First Client in 30 Days
