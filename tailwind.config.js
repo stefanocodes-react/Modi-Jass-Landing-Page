@@ -96,7 +96,7 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[31.25rem] mx-auto px-5 md:px-10 md:max-w-[60rem] lg:max-w-[75rem] lg:px-15 xl:max-w-[83.3125rem]":
+          "@apply max-w-[31.25rem] mx-auto px-5 md:px-10 md:max-w-[60rem] lg:max-w-[75rem] lg:px-15 xl:max-w-[81.25rem]":
             {},
         },
         ".h1": {

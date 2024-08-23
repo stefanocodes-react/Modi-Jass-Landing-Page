@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Header = ({ toggleModal }) => {
   return (
-    <div className="relative">
+    <div className="relative" id="home">
       <div className="absolute top-0 z-[-1] h-full w-full bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:40px_40px]"></div>
       <Navbar />
       <header className="flex flex-col justify-start items-center gap-8 container md:pt-10">
@@ -14,7 +14,7 @@ const Header = ({ toggleModal }) => {
         <div className="flex flex-col gap-4">
           <h1 className="h1 ">
             How To Grow Your Brand On X, Craft Your Offer, And Land Your First
-            Client In 30 Days With My 3-Step System
+            Client In 30 Days
           </h1>
           <p className="body-1 text-center text-gray-300">
             Even if you’re new and know nothing about X.

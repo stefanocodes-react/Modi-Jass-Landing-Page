@@ -1,7 +1,7 @@
 import { useState } from "react";
 import cross from "../assets/vectors/cross.svg";
 import logo from "../assets/vectors/modipfp2.png";
-const MY_FORM_ID = 6724635;
+const REACT_FORM_ID = import.meta.env.VITE_FORM_KEY;
 
 function LeadMagnet({ isOpen, toggleModal }) {
   const [name, setName] = useState("");
@@ -35,10 +35,10 @@ function LeadMagnet({ isOpen, toggleModal }) {
         </div>
       </div>
       <form
-        action={`https://app.convertkit.com/forms/${MY_FORM_ID}/subscriptions`}
+        action={`https://app.convertkit.com/forms/${REACT_FORM_ID}/subscriptions`}
         method="post"
         target="_self"
-        data-sv-form={MY_FORM_ID}
+        data-sv-form={REACT_FORM_ID}
         data-uid={`caa8471d36`}
         data-format="inline"
         data-options={

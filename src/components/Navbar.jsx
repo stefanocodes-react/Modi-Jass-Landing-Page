@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
           <a
             className="text-white hover:opacity-45 transition-all flex justify-center items-center gap-4 text-xl font-satoshi"
-            href="#"
+            href="#home"
           >
             <span className="sr-only">Home</span>
             <img src={logo} alt="Joss Madi Profile Picture Logo" />
