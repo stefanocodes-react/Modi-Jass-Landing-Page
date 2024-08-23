@@ -1,7 +1,6 @@
 import Card from "./Card.jsx";
 import { solutions } from "../constants/index.js";
 import Section from "../components/Section.jsx";
-
 const Solution = () => {
   return (
     <Section
@@ -19,6 +18,7 @@ const Solution = () => {
           <Card key={solution.id} content={solution} />
         ))}
       </div>
+      {/* TODO: add CTA */}
     </Section>
   );
 };

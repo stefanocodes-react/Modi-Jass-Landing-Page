@@ -1,61 +1,11 @@
-import ConvertKitForm from "convertkit-react";
+import { useState } from "react";
 import cross from "../assets/vectors/cross.svg";
 import logo from "../assets/vectors/modipfp2.png";
 const MY_FORM_ID = 6724635;
 
 function Modal({ isOpen, toggleModal }) {
-  const config = {
-    formId: MY_FORM_ID,
-    template: "minimal",
-    emailPlaceholder: "Enter an email address",
-    namePlaceholder: "Name",
-    headingText: "Money Machine",
-    disclaimerText: "",
-    submitText: "Grab Your Free Copy",
-    className: "ck-fm bg-color-modal opacity-100 z-10  flex flex-col gap-4",
-  };
-
-  //   <div role="alert" className="rounded-xl border border-gray-100 bg-white p-4">
-  //   <div className="flex items-start gap-4">
-  //     <span className="text-green-600">
-  //       <svg
-  //         xmlns="http://www.w3.org/2000/svg"
-  //         fill="none"
-  //         viewBox="0 0 24 24"
-  //         strokeWidth="1.5"
-  //         stroke="currentColor"
-  //         className="size-6"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-  //         />
-  //       </svg>
-  //     </span>
-
-  //     <div className="flex-1">
-  //       <strong className="block font-medium text-gray-900"> Changes saved </strong>
-
-  //       <p className="mt-1 text-sm text-gray-700">Your product changes have been saved.</p>
-  //     </div>
-
-  //     <button className="text-gray-500 transition hover:text-gray-600">
-  //       <span className="sr-only">Dismiss popup</span>
-
-  //       <svg
-  //         xmlns="http://www.w3.org/2000/svg"
-  //         fill="none"
-  //         viewBox="0 0 24 24"
-  //         strokeWidth="1.5"
-  //         stroke="currentColor"
-  //         className="size-6"
-  //       >
-  //         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-  //       </svg>
-  //     </button>
-  //   </div>
-  // </div>
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   return (
     <div
       className={` ${
@@ -84,8 +34,44 @@ function Modal({ isOpen, toggleModal }) {
           </p>
         </div>
       </div>
-
-      <ConvertKitForm {...config}></ConvertKitForm>
+      <form
+        action={`https://app.convertkit.com/forms/${MY_FORM_ID}/subscriptions`}
+        method="post"
+        target="_self"
+        data-sv-form={MY_FORM_ID}
+        data-uid={`caa8471d36`}
+        data-format="inline"
+        data-options={
+          "&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://convertkit.com?utm_source=dynamic&amp;amp;utm_medium=referral&amp;amp;utm_campaign=poweredby&amp;amp;utm_content=form&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;uid&quot;:&quot;&quot;,&quot;version&quot;:&quot;5&quot;"
+        }
+        data-version="5"
+        className="ck-fm bg-color-modal opacity-100 z-10  flex flex-col gap-4"
+      >
+        <input
+          type="text"
+          name="fields[first_name]"
+          value={name}
+          onChange={(e) => {
+            setName(e.target.value);
+            console.log(e.target.value);
+          }}
+          placeholder="Name"
+          aria-label="First name"
+          id="ck-first-name"
+          required
+        />
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Enter an email address"
+          aria-label="Email"
+          id="ck-email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+        <button type="submit">Grab Your Free Copy</button>
+      </form>
       <button onClick={toggleModal} className="absolute top-4 right-4 z-10">
         <img height={28} width={28} src={cross} alt="" />
       </button>
