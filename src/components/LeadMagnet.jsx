@@ -1,9 +1,8 @@
 import { useState } from "react";
 import cross from "../assets/vectors/cross.svg";
 import logo from "../assets/vectors/modipfp2.png";
+const MY_FORM_ID = 6724635;
 
-const MY_FORM_ID = process.env.REACT_FORM_ID;
-// console.log(MY_FORM_ID);
 function LeadMagnet({ isOpen, toggleModal }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
