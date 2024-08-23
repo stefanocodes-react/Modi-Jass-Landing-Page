@@ -7,7 +7,7 @@ const Section = ({
   className,
 }) => {
   return (
-    <section id={id} className={`bg-color-body`}>
+    <section id={id}>
       <div className={`container flex flex-col py-16 ${className}`}>
         <div className="flex flex-col justify-center items-center gap-3">
           <div className="border border-white py-1 px-3 rounded-2xl">

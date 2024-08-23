@@ -12,6 +12,10 @@ function App() {
   };
   return (
     <div>
+      <div class="fixed left-0 top-0 -z-10 h-full w-full">
+        <div class="absolute inset-0 bg-blue-800 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
+      </div>
+
       <Header toggleModal={toggleModal} />
       <Problem />
       <Solution />

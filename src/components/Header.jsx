@@ -6,7 +6,9 @@ import Navbar from "./Navbar";
 const Header = ({ toggleModal }) => {
   return (
     <div className="relative" id="home">
-      <div className="absolute top-0 z-[-1] h-full w-full bg-color-body bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:40px_40px]"></div>
+      {/* <div className="absolute top-0 z-[-11] h-full w-full bg-[radial-gradient(#ffffff33_1px,#_1px)] bg-[size:40px_40px]"></div> */}
+      <div class="absolute top-0 z-[-2] h-full w-full bg-[radial-gradient(ellipse_50%_50%_at_50%_20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]"></div>
+      {/* <div className="absolute top-0 z-[-11] h-full w-full bg-blue-800 bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:40px_40px]"></div> */}
       <Navbar />
       <header className="flex flex-col justify-start items-center gap-8 container md:pt-10">
         {/* Grid Background */}
