@@ -7,7 +7,8 @@ const Header = ({ toggleModal }) => {
   return (
     <div className="relative" id="home">
       {/* <div className="absolute top-0 z-[-11] h-full w-full bg-[radial-gradient(#ffffff33_1px,#_1px)] bg-[size:40px_40px]"></div> */}
-      <div class="absolute top-0 z-[-2] h-full w-full bg-[radial-gradient(ellipse_50%_50%_at_50%_5%,rgba(120,119,198,0.05),rgba(255,255,255,0))]"></div>
+      {/* <div className="absolute top-0 z-[-2] h-full w-full bg-[radial-gradient(ellipse_50%_50%_at_50%_5%,rgba(120,119,198,0.05),rgba(255,255,255,0))]"></div> */}
+      <div class="-z-1 absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e,transparent_1px)] bg-[size:80px_80px] [mask-image:radial-gradient(ellipse_70%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
       {/* <div className="absolute top-0 z-[-11] h-full w-full bg-blue-800 bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:40px_40px]"></div> */}
       <Navbar />
       <header className="flex flex-col justify-start items-center gap-8 container md:pt-10">
