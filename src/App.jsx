@@ -11,11 +11,7 @@ function App() {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
-      <div className="fixed left-0 top-0 -z-10 h-full w-full bg-[rgba(47,70,140,0.2)]">
-        {/* <div class="absolute inset-0 bg-blue-800 bg-[size:20px_20px] opacity-20 blur-[100px]"></div> */}
-      </div>
-
+    <div className="bg-[rgba(47,70,140,0.2)]">
       <Header toggleModal={toggleModal} />
       <Problem />
       <Solution />
