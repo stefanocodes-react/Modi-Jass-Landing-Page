@@ -12,9 +12,9 @@ import review5 from "../assets/testimonials/review5.jpeg";
 import review6 from "../assets/testimonials/review6.jpeg";
 import review7 from "../assets/testimonials/review7.jpeg";
 import review8 from "../assets/testimonials/review8.jpeg";
-import branding1 from "/assets/process/branding.png";
-import offer1 from "/assets/process/offer.png";
-import clients1 from "/assets/process/clients.png";
+import branding1 from "./assets/process/branding.png";
+import offer1 from "./assets/process/offer.png";
+import clients1 from "./assets/process/clients.png";
 
 export const navlinks = [
   {
