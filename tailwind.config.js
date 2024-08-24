@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+const flowbite = require("flowbite-react/tailwind");
 
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./public/assets/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(),
   ],
   theme: {
     extend: {
@@ -17,7 +19,7 @@ export default {
           dark: "#0e0c15",
           light: "#f2f2f2",
           red: "#f06868",
-          body: "#00091d",
+          body: "rgba(47,70,140,0.2)",
           green: "#13ce66",
           modal: "#2e2f3a",
         },
@@ -128,5 +130,6 @@ export default {
         },
       });
     }),
+    flowbite.plugin(),
   ],
 };

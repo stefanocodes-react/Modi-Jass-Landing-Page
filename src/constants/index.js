@@ -1,3 +1,4 @@
+import { Timeline } from "flowbite-react";
 import problemicon1 from "../assets/problem/problemicon1.svg";
 import problemicon2 from "../assets/problem/problemicon2.svg";
 import problemicon3 from "../assets/problem/problemicon3.svg";
@@ -12,6 +13,9 @@ import review5 from "../assets/testimonials/review5.jpeg";
 import review6 from "../assets/testimonials/review6.jpeg";
 import review7 from "../assets/testimonials/review7.jpeg";
 import review8 from "../assets/testimonials/review8.jpeg";
+import branding from "../assets/Process/branding.png";
+import offer from "../assets/Process/offer.png";
+import clients from "../assets/Process/clients.png";
 
 export const navlinks = [
   {
@@ -93,5 +97,32 @@ export const reviews = [
   review6,
   review7,
   review2,
+];
+
+export const process = [
+  {
+    id: 1,
+    title: "Positioning And Branding",
+    description:
+      "Get personalized tips to refine your Twitter profile and build a strong brand.",
+    timeline: "2 weeks",
+    img: branding,
+  },
+  {
+    id: 2,
+    title: "Crafting Offer",
+    description: `90% of creators on X grow their accounts but they struggle to sell.
+- They either don’t know what to offer, or they create an offer people DON’T need.
+- We will create an offer that people NEED and start monetizing it.`,
+    timeline: "2 weeks",
+    img: offer,
+  },
+  {
+    id: 3,
+    title: "Attracting Clients",
+    description: `We will optimize your content to get you leads and optimize your outreach so you approach potential clients with ease.`,
+    timeline: "4 weeks",
+    img: clients,
+  },
 ];
 export default reviews;

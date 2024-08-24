@@ -1,3 +1,4 @@
+import Process from "./components/Process.jsx";
 import "./App.css";
 import Header from "./components/Header.jsx";
 import LeadMagnet from "./components/LeadMagnet.jsx";
@@ -11,12 +12,13 @@ function App() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="bg-[rgba(47,70,140,0.2)]">
+    <div className="bg-color-body">
       <Header toggleModal={toggleModal} />
       <Problem />
       <Solution />
       <Results />
       <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
+      <Process />
     </div>
   );
 }
