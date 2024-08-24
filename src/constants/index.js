@@ -12,9 +12,9 @@ import review5 from "../assets/testimonials/review5.jpeg";
 import review6 from "../assets/testimonials/review6.jpeg";
 import review7 from "../assets/testimonials/review7.jpeg";
 import review8 from "../assets/testimonials/review8.jpeg";
-import branding from "../assets/process/branding.png";
-import offer from "../assets/process/offer.png";
-import clients from "../assets/process/clients.png";
+import branding1 from "../assets/process/branding.png";
+import offer1 from "../assets/process/offer.png";
+import clients1 from "../assets/process/clients.png";
 
 export const navlinks = [
   {
@@ -105,7 +105,7 @@ export const process = [
     description:
       "Get personalized tips to refine your Twitter profile and build a strong brand.",
     timeline: "2 weeks",
-    img: branding,
+    img: branding1,
   },
   {
     id: 2,
@@ -114,14 +114,14 @@ export const process = [
 - They either don’t know what to offer, or they create an offer people DON’T need.
 - We will create an offer that people NEED and start monetizing it.`,
     timeline: "2 weeks",
-    img: offer,
+    img: offer1,
   },
   {
     id: 3,
     title: "Attracting Clients",
     description: `We will optimize your content to get you leads and optimize your outreach so you approach potential clients with ease.`,
     timeline: "4 weeks",
-    img: clients,
+    img: clients1,
   },
 ];
 
