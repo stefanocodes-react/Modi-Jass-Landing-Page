@@ -1,4 +1,3 @@
-import { Timeline } from "flowbite-react";
 import problemicon1 from "../assets/problem/problemicon1.svg";
 import problemicon2 from "../assets/problem/problemicon2.svg";
 import problemicon3 from "../assets/problem/problemicon3.svg";
@@ -123,6 +122,29 @@ export const process = [
     description: `We will optimize your content to get you leads and optimize your outreach so you approach potential clients with ease.`,
     timeline: "4 weeks",
     img: clients,
+  },
+];
+
+export const questions = [
+  {
+    id: 1,
+    question: `How much time do I have to spend every day to grow?`,
+    answer: `Whether you have 30 mins a day or 6 hours, this is a personalized approach to help you grow and get tangible results.`,
+  },
+  {
+    id: 2,
+    question: `Will this get me to $10k a month fast?`,
+    answer: `No, this is not a get-rich quick scheme, you’re starting from scratch so it’s gonna take a bit of time to get there.`,
+  },
+  {
+    id: 3,
+    question: `Is this beginner friendly?`,
+    answer: `Yes, It’s totally beginner friendly, you will get actionable steps that work for you as a beginner.`,
+  },
+  {
+    id: 4,
+    question: `Will this help me craft my offer and get clients?`,
+    answer: `Yes, we will work on creating an offer that people NEED, and help you land clients as well.`,
   },
 ];
 export default reviews;
