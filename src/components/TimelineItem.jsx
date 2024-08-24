@@ -1,5 +1,3 @@
-import { motion, useScroll } from "framer-motion";
-
 const TimelineItem = ({ item }) => {
   return (
     // timeline left
@@ -11,17 +9,6 @@ const TimelineItem = ({ item }) => {
         <span className="text-4xl capitalize hidden lg:flex">
           PHASE {item.id}
         </span>
-      </div>
-      <div
-        id="timeline-progress-bar"
-        className="w-0.5 hidden lg:block m-auto left-0 right-0 top-20 h-[90%] absolute bg-gradient-to-b from-color-primary to-color-secondary -z-[-1] "
-      >
-        <div
-          id="timeline-center"
-          className="col-span-1 row-span-2 w-[20px] md:w-auto flex justify-center items-center z-10"
-        >
-          <div className="w-4 h-4 absolute top-0 bg-white rounded-full z-10 border-2 border-black"></div>
-        </div>
       </div>
 
       <div className="flex lg:flex-1 flex-col gap-4">

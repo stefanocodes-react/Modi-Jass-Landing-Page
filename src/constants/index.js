@@ -110,7 +110,7 @@ export const process = [
   },
   {
     id: 2,
-    title: "Crafting Offer",
+    title: "Offer Creation",
     description: `90% of creators on X grow their accounts but they struggle to sell.
 - They either don’t know what to offer, or they create an offer people DON’T need.
 - We will create an offer that people NEED and start monetizing it.`,

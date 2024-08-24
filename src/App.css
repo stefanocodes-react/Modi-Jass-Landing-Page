@@ -10,6 +10,16 @@
   margin: auto; */
 }
 
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #21346b;
+  transform-origin: 0%;
+}
+
 .ck-fm input {
   width: 100%;
   padding: 0.75rem 1.5rem;
