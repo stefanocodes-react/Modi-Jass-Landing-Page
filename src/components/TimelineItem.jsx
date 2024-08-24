@@ -1,9 +1,11 @@
+import { motion, useScroll } from "framer-motion";
+
 const TimelineItem = ({ item }) => {
   return (
     // timeline left
     <div className="flex flex-col justify-between items-center lg:flex-row">
       <div className="relative flex flex-[1.5] flex-col lg:flex-row gap-20 items-center">
-        <span className="absolute -top-[10rem] lg:relative lg:top-0 -z-1 text-[250px] font-black text-color-secondary/10">
+        <span className="absolute -top-[5rem] lg:relative lg:top-0 -z-1 text-[150px] lg:text-[250px] font-black text-color-secondary/5">
           {item.id}
         </span>
         <span className="text-4xl capitalize hidden lg:flex">
