@@ -4,6 +4,9 @@ import problemicon3 from "../assets/problem/problemicon3.svg";
 import solutionicon1 from "../assets/solution/solutionicon1.svg";
 import solutionicon2 from "../assets/solution/solutionicon2.svg";
 import solutionicon3 from "../assets/solution/solutionicon3.svg";
+import branding from "../assets/solution/branding.jpg";
+import offer from "../assets/solution/offer.jpg";
+import clients from "../assets/solution/clients.jpg";
 import review1 from "../assets/testimonials/review1.jpeg";
 import review2 from "../assets/testimonials/review2.jpeg";
 import review3 from "../assets/testimonials/review3.jpeg";
@@ -12,9 +15,6 @@ import review5 from "../assets/testimonials/review5.jpeg";
 import review6 from "../assets/testimonials/review6.jpeg";
 import review7 from "../assets/testimonials/review7.jpeg";
 import review8 from "../assets/testimonials/review8.jpeg";
-import branding from "../assets/process/branding.png";
-import offer from "../assets/process/offer.png";
-import clients from "../assets/process/clients.png";
 
 export const navlinks = [
   {

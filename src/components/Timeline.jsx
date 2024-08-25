@@ -1,15 +1,11 @@
 import TimelineItem from "./TimelineItem.jsx";
 import { process } from "../constants/index.js";
 import React from "react";
-
-console.log(process);
 const Timeline = () => {
   return (
     <div className="relative flex flex-col gap-20 pt-16 ">
       {process.map((item, idx) => (
-        <React.Fragment key={idx}>
-          <TimelineItem key={idx} item={item} />
-        </React.Fragment>
+        <TimelineItem key={idx} item={item} />
       ))}
 
       <div
