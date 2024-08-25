@@ -21,9 +21,9 @@ const Section = ({
           <div className="flex text-center flex-col items-center justify-center gap-4">
             <h2 className={`h2 text-center capitalize`}>{sectionTitle}</h2>
             {sectionDescription &&
-              sectionDescription.map((description) => (
+              sectionDescription.map((description, idx) => (
                 <p
-                  key={description}
+                  key={idx}
                   className="body-1 text-center text-gray-300 md:w-4/6"
                 >
                   {description}
