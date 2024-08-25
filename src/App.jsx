@@ -17,15 +17,15 @@ function App() {
   };
   return (
     <>
+      <Header toggleModal={toggleModal} />
       <main className="bg-color-body">
-        <Header toggleModal={toggleModal} />
         <Problem />
         <Solution />
         <Results />
-        <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
         <Process />
         <FrequentlyAskedQuestions />
         <FinalCta />
+        <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
       </main>
       <Footer />
     </>

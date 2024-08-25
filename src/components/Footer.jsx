@@ -1,5 +1,4 @@
 import { RiTwitterXLine } from "react-icons/ri";
-import { MdOutlineMail } from "react-icons/md";
 import profile from "../assets/vectors/modipfp3-bg-removed.png";
 import { footer } from "../constants/index.js";
 import Button from "./Button.jsx";
