@@ -9,11 +9,12 @@ const Faq = ({ question }) => {
   return (
     <>
       <div
-        className={`flex flex-col items-center justify-center gap-5 bg-color-modal/30 px-5 pt-4 rounded-xl transition-all`}
+        className={`flex cursor-pointer flex-col items-center justify-center gap-5 bg-color-modal/30 px-5 pt-4 rounded-xl transition-all`}
+        onClick={toggleQuestion}
       >
-        <div className="flex items-center w-full gap-3 justify-between">
+        <div className="flex  items-center w-full gap-3 justify-between">
           <p className="text-lg font-medium">{question.question}</p>
-          <button onClick={toggleQuestion} className="relative h-4 w-4">
+          <button className="relative h-4 w-4">
             <div className="absolute h-0.5 w-4 bg-color-secondary"></div>
             <div
               className={`absolute ${
