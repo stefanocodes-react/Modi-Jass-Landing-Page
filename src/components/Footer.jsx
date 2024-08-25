@@ -28,19 +28,23 @@ const Footer = () => {
         </ul>
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
-          <a
-            className="transition-all hover:opacity-80 hover:-translate-y-[3px]"
-            href="https://x.com/MoayadAlazzawi"
-          >
-            <RiTwitterXLine size={25} />
-          </a>
-          <a
-            className="transition-all flex font-satoshi items-center gap-2 hover:opacity-80 hover:-translate-y-[3px]"
-            href="mailto:Moayad@MoayadJ.com"
-          >
-            {/* <MdOutlineMail size={} /> */}
-            <p>Moayad@MoayadJ.com</p>
-          </a>
+          <li>
+            <a
+              className="transition-all hover:opacity-80 hover:-translate-y-[3px]"
+              href="https://x.com/MoayadAlazzawi"
+            >
+              <RiTwitterXLine size={25} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="transition-all flex font-satoshi items-center gap-2 hover:opacity-80 hover:-translate-y-[3px]"
+              href="mailto:Moayad@MoayadJ.com"
+            >
+              {/* <MdOutlineMail size={} /> */}
+              <p>Moayad@MoayadJ.com</p>
+            </a>
+          </li>
         </ul>
         <div className="flex items-center justify-center mt-8">
           <Button
