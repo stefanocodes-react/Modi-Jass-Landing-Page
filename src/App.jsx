@@ -8,6 +8,7 @@ import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 import FinalCta from "./components/FinalCta.jsx";
+import Footer from "./components/Footer.jsx";
 function App() {
   // Modal Function
   const [isOpen, setIsOpen] = useState(false);
@@ -15,16 +16,19 @@ function App() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="bg-color-body">
-      <Header toggleModal={toggleModal} />
-      <Problem />
-      <Solution />
-      <Results />
-      <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
-      <Process />
-      <FrequentlyAskedQuestions />
-      <FinalCta />
-    </div>
+    <>
+      <main className="bg-color-body">
+        <Header toggleModal={toggleModal} />
+        <Problem />
+        <Solution />
+        <Results />
+        <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
+        <Process />
+        <FrequentlyAskedQuestions />
+        <FinalCta />
+      </main>
+      <Footer />
+    </>
   );
 }
 

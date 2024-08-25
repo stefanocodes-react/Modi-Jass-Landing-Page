@@ -3,7 +3,7 @@ import vector from "../assets/vectors/faqGraphic.svg";
 import Button from "./Button";
 const FinalCta = () => {
   return (
-    <Section>
+    <Section id={"cta"}>
       <div className="flex md:flex-row flex-col-reverse items-center  gap-8 justify-between rounded-md py-16 px-16 relative overflow-hidden border border-gray-700">
         <div className="flex md:items-start flex-col items-center justify-center gap-4">
           <h4 className="capitalize md:text-left md:text-4xl lg:text-5xl xl:text-[3.375rem] text-[2rem] max-w-[30rem] text-center leading-snug xl:leading-tight font-semibold">

@@ -1,4 +1,5 @@
-const Button = ({ buttonType, children, href, onClick }) => {
+import { FaArrowRightLong } from "react-icons/fa6";
+const Button = ({ buttonType, children, href, onClick, icon }) => {
   const classes = `${
     buttonType === "primary"
       ? "bg-color-primary hover:opacity-70"
@@ -13,8 +14,15 @@ const Button = ({ buttonType, children, href, onClick }) => {
   };
   const linkButton = () => {
     return (
-      <a href={href} target="_blank" className={classes}>
+      <a
+        href={href}
+        target="_blank"
+        className={`${classes} ${
+          icon ? "flex items-center gap-3 justify-center" : null
+        }`}
+      >
         {children}
+        {icon ? <FaArrowRightLong className="mt-1" /> : null}
       </a>
     );
   };

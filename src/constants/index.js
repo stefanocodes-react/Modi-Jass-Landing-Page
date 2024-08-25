@@ -141,5 +141,26 @@ export const questions = [
     answer: `Yes, we will work on creating an offer that people NEED, and help you land clients as well.`,
   },
 ];
-const newA = [];
+export const footer = [
+  {
+    id: "0",
+    title: "How It Works",
+    url: "#howitworks",
+  },
+  {
+    id: "1",
+    title: "Benifits",
+    url: "#benifits",
+  },
+  {
+    id: "2",
+    title: "Testimonials",
+    url: "#testimonials",
+  },
+  {
+    id: "3",
+    title: "FAQ's",
+    url: "#faq",
+  },
+];
 export default reviews;

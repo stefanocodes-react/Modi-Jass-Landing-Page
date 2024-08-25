@@ -4,7 +4,10 @@ import { questions } from "../constants";
 import graphic from "../assets/vectors/arrow-right.svg";
 const FrequentlyAskedQuestions = () => {
   return (
-    <div className="flex flex-col items-center gap-8 py-16 justify-center container lg:flex-row lg:items-start lg:justify-between">
+    <section
+      id="faq"
+      className="flex flex-col items-center gap-8 py-16 justify-center container lg:flex-row lg:items-start lg:justify-between"
+    >
       <div className="flex relative flex-col items-center gap-6 justify-between">
         <Section
           sectionTitle={`Frequently Asked Questions`}
@@ -26,7 +29,7 @@ const FrequentlyAskedQuestions = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
