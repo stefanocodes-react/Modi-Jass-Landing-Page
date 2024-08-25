@@ -8,7 +8,7 @@ const FrequentlyAskedQuestions = () => {
       <div className="flex relative flex-col items-center gap-6 justify-between">
         <Section
           sectionTitle={`Frequently Asked Questions`}
-          className={`py-0 self-start px-0 md:max-w-[25rem] text-left`}
+          className={`pt-0 pb-0 self-start px-0 md:max-w-[25rem] text-left`}
         />
         <img
           className="hidden lg:block lg:absolute lg:bottom-[-3.5rem] lg:right-[-1rem]"
