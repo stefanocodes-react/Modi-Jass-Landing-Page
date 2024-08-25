@@ -11,8 +11,8 @@ const Header = ({ toggleModal }) => {
       <div className="flex flex-col justify-start items-center gap-8 container md:pt-10">
         <div className="flex flex-col gap-4">
           <h1 className="h1 ">
-            How To Grow Your Brand On X, Craft Your Offer, And Land Your First
-            Client In 30 Days
+            Grow Your Brand On X, Craft Your Offer, And Land Your First Client
+            In 30 Days
           </h1>
           <p className="body-1 text-center text-gray-300">
             Even if you’re new and know nothing about X.
