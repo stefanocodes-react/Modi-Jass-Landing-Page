@@ -7,6 +7,7 @@ import LeadMagnet from "./components/LeadMagnet.jsx";
 import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
+import FinalCta from "./components/FinalCta.jsx";
 function App() {
   // Modal Function
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
       <Process />
       <FrequentlyAskedQuestions />
+      <FinalCta />
     </div>
   );
 }
