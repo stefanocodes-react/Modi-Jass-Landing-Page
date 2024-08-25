@@ -1,7 +1,5 @@
-import Section from "../components/Section";
+import Section from "./Section";
 import Timeline from "./Timeline";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.compat.css";
 function Process() {
   return (
     <Section

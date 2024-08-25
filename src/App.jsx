@@ -8,6 +8,7 @@ import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 function App() {
+  // Modal Function
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => {
     setIsOpen(!isOpen);
