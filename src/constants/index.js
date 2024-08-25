@@ -141,5 +141,5 @@ export const questions = [
     answer: `Yes, we will work on creating an offer that people NEED, and help you land clients as well.`,
   },
 ];
-
+const newA = [];
 export default reviews;
