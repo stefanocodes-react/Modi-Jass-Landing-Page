@@ -142,4 +142,4 @@ export const questions = [
   },
 ];
 
-export default process;
+export default reviews;
