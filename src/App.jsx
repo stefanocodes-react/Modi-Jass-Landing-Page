@@ -9,6 +9,7 @@ import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 import FinalCta from "./components/FinalCta.jsx";
 import Footer from "./components/Footer.jsx";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 function App() {
   // Modal Function
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
   };
   return (
     <>
+      <SpeedInsights />
       <Header toggleModal={toggleModal} />
       <main className="bg-color-body">
         <Problem />
