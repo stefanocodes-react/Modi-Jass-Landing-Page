@@ -1,6 +1,6 @@
 import { useState } from "react";
 import cross from "../assets/vectors/cross.svg";
-import logo from "../assets/vectors/modipfp2.png";
+import logo from "../assets/vectors/modipfp3-bg-removed.png";
 const REACT_FORM_ID = import.meta.env.VITE_FORM_KEY;
 
 function LeadMagnet({ isOpen, toggleModal }) {
