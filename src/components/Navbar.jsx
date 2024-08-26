@@ -1,5 +1,5 @@
 import Button from "./Button";
-import logo from "../assets/vectors/modi_jass_logo.svg";
+import logo from "../assets/hero/modipfp.png";
 import { navlinks } from "../constants/index.js";
 import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
@@ -13,7 +13,13 @@ const Navbar = () => {
             href="#home"
           >
             <span className="sr-only">Home</span>
-            <img src={logo} alt="Joss Madi Profile Picture Logo" />
+            <img
+              src={logo}
+              className="rounded-full"
+              width={48}
+              height={48}
+              alt="Joss Madi Profile Picture Logo"
+            />
             <span className="font-semibold">Modi Jass</span>
           </a>
         </div>

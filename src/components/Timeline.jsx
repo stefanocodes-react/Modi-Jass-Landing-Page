@@ -1,6 +1,6 @@
 import TimelineItem from "./TimelineItem.jsx";
 import { process } from "../constants/index.js";
-import React from "react";
+
 const Timeline = () => {
   return (
     <div className="relative flex flex-col gap-20 pt-16 ">
@@ -16,7 +16,11 @@ const Timeline = () => {
           id="timeline-center"
           className="col-span-1 row-span-2 w-[20px] md:w-auto flex justify-center items-center z-10"
         >
-          <div className="  w-4 h-4 absolute top-0 m-auto bg-white rounded-full z-10 border-2 border-black" />
+          <div
+            className=" w-4 h-4
+          absolute top-0 m-auto bg-white rounded-full z-10 border-2
+          border-black"
+          />
         </div>
       </div>
     </div>

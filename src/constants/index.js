@@ -24,8 +24,8 @@ export const navlinks = [
   },
   {
     id: "1",
-    title: "Benifits",
-    url: "#benifits",
+    title: "Benefits",
+    url: "#benefits",
   },
   {
     id: "2",
@@ -149,8 +149,8 @@ export const footer = [
   },
   {
     id: "1",
-    title: "Benifits",
-    url: "#benifits",
+    title: "Benefits",
+    url: "#benefits",
   },
   {
     id: "2",

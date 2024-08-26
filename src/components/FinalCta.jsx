@@ -10,7 +10,9 @@ const FinalCta = () => {
             i want to build my brand on X
           </h4>
           <Button
-            href={"https://x.com/MoayadAlazzawi"}
+            href={
+              "https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
+            }
             buttonType={"primary"}
             children={"Ace Your Niche Today"}
           ></Button>

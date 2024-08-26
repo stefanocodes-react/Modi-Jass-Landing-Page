@@ -20,7 +20,9 @@ const Header = ({ toggleModal }) => {
         </div>
         <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
           <Button
-            href={"https://x.com/MoayadAlazzawi"}
+            href={
+              "https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
+            }
             children={"Build Your Brand Now"}
             buttonType={"primary"}
           />

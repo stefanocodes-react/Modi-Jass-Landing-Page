@@ -19,8 +19,6 @@ function App() {
   };
   return (
     <>
-      <SpeedInsights />
-      <Analytics />
       <Header toggleModal={toggleModal} />
       <main className="bg-color-body">
         <Problem />
@@ -32,6 +30,8 @@ function App() {
         <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
       </main>
       <Footer />
+      <SpeedInsights />
+      <Analytics />
     </>
   );
 }

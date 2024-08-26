@@ -31,7 +31,7 @@ const Footer = () => {
           <li>
             <a
               className="transition-all hover:opacity-80 hover:-translate-y-[3px]"
-              href="https://x.com/MoayadAlazzawi"
+              href="https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
             >
               <RiTwitterXLine size={25} />
             </a>
@@ -48,8 +48,10 @@ const Footer = () => {
         </ul>
         <div className="flex items-center justify-center mt-8">
           <Button
-            href={"https://x.com/MoayadAlazzawi"}
-            children={`Yes I Want Acess`}
+            href={
+              "https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
+            }
+            children={`build your brand now`}
             buttonType={"primary"}
             icon
           />
