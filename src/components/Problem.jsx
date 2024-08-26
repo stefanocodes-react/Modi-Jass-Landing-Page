@@ -9,7 +9,7 @@ const Problem = () => {
       id={"problem"}
       className={"gap-4"}
       tagline={"the problem"}
-      sectionTitle={"You are doing it the wrong way"}
+      sectionTitle={`You’re growing on x the wrong way`}
       sectionDescription={[
         `One year ago I started building my brand on X.`,
         ` I got 900 followers but made $0.`,

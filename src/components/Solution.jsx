@@ -9,7 +9,7 @@ const Solution = () => {
         id="benefits"
         className={"gap-4 pt-0"}
         tagline={"the solution"}
-        sectionTitle={"there is a better way of doing it"}
+        sectionTitle={"the proven way to grow on X"}
         sectionDescription={[
           `at 900+ followers I closed my first client in 7 days.`,
           `I started having success through outreach/content getting me clients and inbounds. because of these...`,
