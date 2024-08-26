@@ -32,6 +32,7 @@ const Footer = () => {
             <a
               className="transition-all hover:opacity-80 hover:-translate-y-[3px]"
               href="https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
+              aria-label="Go Modi Jass's Twitter Page"
             >
               <RiTwitterXLine size={25} />
             </a>

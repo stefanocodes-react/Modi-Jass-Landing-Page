@@ -14,7 +14,10 @@ const Faq = ({ question }) => {
       >
         <div className="flex  items-center w-full gap-3 justify-between">
           <p className="text-lg font-medium">{question.question}</p>
-          <button className="relative h-4 w-4">
+          <button
+            aria-label="open frequently asked question"
+            className="relative h-4 w-4"
+          >
             <div className="absolute h-0.5 w-4 bg-color-secondary"></div>
             <div
               className={`absolute ${
