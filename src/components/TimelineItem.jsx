@@ -3,7 +3,7 @@ const TimelineItem = ({ item }) => {
     // timeline left
     <div className="flex flex-col justify-between items-center lg:flex-row">
       <div className="relative text-color-dark flex flex-[1.5] flex-col lg:flex-row gap-20 items-center">
-        <span className="absolute -top-[5rem] text-color-dark lg:relative lg:top-0 -z-1 text-[150px] lg:text-[250px] font-black text-color-secondary/5">
+        <span className="absolute text-color-dark -top-[5rem] text-color-dark lg:relative lg:top-0 -z-1 text-[150px] lg:text-[250px] font-black text-color-secondary/5">
           {item.id}
         </span>
         <span className="text-4xl text-color-dark capitalize hidden lg:flex">
