@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className=" mx-auto container w-full flex py-6 bg-none items-center justify-between">
         <div className="flex justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
           <a
-            className="text-color-dark hover:opacity-45 transition-all flex justify-center items-center gap-4 text-xl font-satoshi"
+            className="text-white hover:opacity-45 transition-all flex justify-center items-center gap-4 text-xl font-satoshi"
             href="#home"
           >
             <span className="sr-only">Home</span>

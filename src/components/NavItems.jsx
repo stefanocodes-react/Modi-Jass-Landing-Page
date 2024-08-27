@@ -5,7 +5,7 @@ const NavItems = ({ links }) => {
     return (
       <li key={link.id}>
         <a
-          className="text-color-dark transition font-satoshi text-lg hover:text-color-primary"
+          className="text-gray-300 transition font-satoshi text-lg hover:text-color-primary"
           href={`${link.url}`}
         >
           {link.title}

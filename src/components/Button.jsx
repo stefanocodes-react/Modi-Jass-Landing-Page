@@ -3,7 +3,7 @@ const Button = ({ buttonType, children, href, onClick, icon }) => {
   const classes = `${
     buttonType === "primary"
       ? "bg-color-primary hover:opacity-70"
-      : "border text-color-dark border-color-dark hover:bg-white hover:text-black"
+      : "border border-white hover:bg-white hover:text-black"
   } button transition-all`;
   const button = () => {
     return (
