@@ -1,18 +1,18 @@
 import Button from "./Button";
 import smiles from "../assets/vectors/Smiles.svg";
 import growAudienceVector from "../assets/vectors/HeroVector.svg";
-import Navbar from "./Navbar";
 
 const Header = ({ toggleModal }) => {
   return (
     <header className="relative" id="home">
       <div className="-z-1 absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_2px,transparent_2px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:80px_80px] [mask-image:radial-gradient(ellipse_70%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
-      <Navbar />
-      <div className="flex flex-col justify-start items-center gap-8 container md:pt-10">
+      <div className="flex flex-col justify-start items-center pt-5 gap-8 container md:pt-10">
         <div className="flex flex-col gap-4">
-          <h1 className="h1 ">
-            Grow Your Brand On X, Craft Your Offer, And Land Your First Client
-            In 30 Days
+          <h1 className="h1 bg-gradient-to-b from-[#bbb] to-color-light bg-clip-text text-transparent ">
+            <span className="">
+              Grow Your Brand On X, Craft Your Offer, And Land Your First Client
+              In 30 Days
+            </span>
           </h1>
           <p className="body-1 text-center text-gray-300">
             Even if you’re new and know nothing about X.

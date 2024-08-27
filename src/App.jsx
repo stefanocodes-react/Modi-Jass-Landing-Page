@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import Header from "./components/Header.jsx";
+import InitialSocialProof from "./components/InitialSocialProof.jsx";
 import Problem from "./components/Problem.jsx";
 import Solution from "./components/Solution.jsx";
 import LeadMagnet from "./components/LeadMagnet.jsx";
@@ -11,6 +12,7 @@ import FinalCta from "./components/FinalCta.jsx";
 import Footer from "./components/Footer.jsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
+import Navbar from "./components/Navbar.jsx";
 function App() {
   // Modal Function
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +21,10 @@ function App() {
   };
   return (
     <>
+      <Navbar />
       <Header toggleModal={toggleModal} />
       <main className="bg-color-body">
+        <InitialSocialProof />
         <Problem />
         <Solution />
         <Results />

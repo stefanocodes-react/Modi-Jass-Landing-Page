@@ -9,7 +9,7 @@ function LeadMagnet({ isOpen, toggleModal }) {
   return (
     <div
       className={` ${
-        isOpen ? "opacity-100 visible z-10" : "opacity-0 invisible -z-1"
+        isOpen ? "opacity-100 visible z-50" : "opacity-0 invisible -z-1"
       } absolute transition top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-color-modal p-[2.5rem] rounded-lg w-[90%] max-w-[31.25rem]`}
     >
       <div className="pb-8 flex flex-col items-center justify-center">

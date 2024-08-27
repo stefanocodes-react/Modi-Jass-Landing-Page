@@ -5,9 +5,9 @@ import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
 const Navbar = () => {
   return (
-    <div className="w-full">
-      <div className=" mx-auto container w-full flex py-6 bg-none items-center justify-between">
-        <div className="flex justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
+    <div className="w-full sticky z-20 top-0 backdrop-blur-[2px] border border-t-0 border-x-0 border-b-white/5 ">
+      <div className=" mx-auto container w-full flex py-5 md:py-6 bg-none items-center justify-between">
+        <div className="flex min-w-[12.5rem] justify-center w-full items-center gap-12 sm:w-auto sm:justify-normal ">
           <a
             className="text-white hover:opacity-45 transition-all flex justify-center items-center gap-4 text-xl font-satoshi"
             href="#home"

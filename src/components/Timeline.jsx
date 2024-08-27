@@ -19,7 +19,7 @@ const Timeline = () => {
   const rotate = useTransform(scrollYProgress, [0, 1], ["0deg", "100deg"]);
 
   return (
-    <div className="relative flex flex-col gap-20 pt-16 ">
+    <div className="relative flex flex-col gap-20 pt-24 md:16">
       {process.map((item, idx) => (
         <TimelineItem key={idx} item={item} />
       ))}

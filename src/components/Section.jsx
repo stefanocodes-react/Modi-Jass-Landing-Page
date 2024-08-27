@@ -19,7 +19,11 @@ const Section = ({
           )}
 
           <div className="flex text-center flex-col items-center justify-center gap-4">
-            <h2 className={`h2 text-center capitalize`}>{sectionTitle}</h2>
+            <h2
+              className={`h2 text-center capitalize bg-gradient-to-r from-[#ccc] to-color-light bg-clip-text text-transparent`}
+            >
+              {sectionTitle}
+            </h2>
             {sectionDescription &&
               sectionDescription.map((description, idx) => (
                 <p
