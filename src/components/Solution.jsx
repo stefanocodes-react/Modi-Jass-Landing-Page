@@ -21,13 +21,13 @@ const Solution = () => {
           ))}
         </div>
         {/* TODO: add CTA */}
+        <div className=" mt-8 flex items-center justify-center">
+          <Button
+            children={"Let's Build My Brand"}
+            // buttonType={"primary"}
+          ></Button>
+        </div>
       </Section>
-      <div className="flex items-center justify-center">
-        <Button
-          children={"Let's Build My Brand"}
-          // buttonType={"primary"}
-        ></Button>
-      </div>
     </>
   );
 };

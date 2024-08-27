@@ -17,9 +17,10 @@ export default {
           primary: "#2f468c",
           secondary: "#1e9eef",
           dark: "#0e0c15",
-          light: "#f2f2f2",
+          light: "#222",
           red: "#f06868",
-          body: "rgba(47,70,140,0.2)",
+          // body: "rgba(47,70,140,0.2)",
+          body: "#f2f2f2",
           green: "#13ce66",
           modal: "#2e2f3a",
         },
@@ -113,7 +114,7 @@ export default {
           "@apply text-[1.375rem] leading-normal md:text-[1.5rem]": {},
         },
         ".body-1": {
-          "@apply text-color-light text-[1rem] font-satoshi leading-[1.5rem] md:text-[1.125rem] md:leading-8":
+          "@apply text-color-dark text-[1rem] font-satoshi leading-[1.5rem] md:text-[1.125rem] md:leading-8":
             {},
         },
         ".tagline": {

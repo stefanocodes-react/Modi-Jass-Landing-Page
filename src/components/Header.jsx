@@ -14,7 +14,7 @@ const Header = ({ toggleModal }) => {
             Grow Your Brand On X, Craft Your Offer, And Land Your First Client
             In 30 Days
           </h1>
-          <p className="body-1 text-center text-gray-300">
+          <p className="body-1 text-center text-color-dark">
             Even if you’re new and know nothing about X.
           </p>
         </div>
@@ -32,9 +32,9 @@ const Header = ({ toggleModal }) => {
             buttonType={"secondary"}
           />
         </div>
-        <div className="flex flex-wrap border items-center justify-center border-white/20 px-2 py-1.5 gap-2 rounded-md">
+        <div className="flex flex-wrap border items-center justify-center border-color-dark/20 px-2 py-1.5 gap-2 rounded-md">
           <img src={smiles} alt="happy faces of previous customers" />
-          <p className="leading-8 text-sm pointer-events-none select-none">
+          <p className="leading-8 text-color-dark text-sm pointer-events-none select-none">
             50+ reviews
           </p>
         </div>
