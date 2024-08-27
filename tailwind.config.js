@@ -19,7 +19,7 @@ export default {
           dark: "#0e0c15",
           light: "#f2f2f2",
           red: "#f06868",
-          body: "rgba(47,70,140,0.2)",
+          body: "#151528",
           green: "#13ce66",
           modal: "#2e2f3a",
         },

@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 
 const Header = ({ toggleModal }) => {
   return (
-    <header className="relative bg-color-body" id="home">
-      <div className="-z-1 absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:80px_80px] [mask-image:radial-gradient(ellipse_70%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
+    <header className="relative" id="home">
+      <div className="-z-1 absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_2px,transparent_2px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:80px_80px] [mask-image:radial-gradient(ellipse_70%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
       <Navbar />
       <div className="flex flex-col justify-start items-center gap-8 container md:pt-10">
         <div className="flex flex-col gap-4">

@@ -24,7 +24,7 @@ const Section = ({
               sectionDescription.map((description, idx) => (
                 <p
                   key={idx}
-                  className="body-1 text-center text-gray-300 md:w-4/6"
+                  className={`body-1 text-center text-gray-300 md:w-4/6`}
                 >
                   {description}
                 </p>

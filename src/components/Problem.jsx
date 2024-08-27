@@ -12,7 +12,7 @@ const Problem = () => {
       sectionTitle={`You’re growing on x the wrong way`}
       sectionDescription={[
         `One year ago I started building my brand on X.`,
-        ` I got 900 followers but made $0.`,
+        `I got 900 followers but made $0.`,
         `And like me you’ve probably gone down the “Monetize on X” Rabbit hole, but here’s the problem…`,
       ]}
     >

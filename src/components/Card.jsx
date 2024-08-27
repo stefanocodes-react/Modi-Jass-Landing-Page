@@ -1,7 +1,7 @@
 const Card = ({ content, color }) => {
   return (
     <div
-      className={`flex flex-col gap-4 rounded-xl border border-gray-600 p-8 shadow-xl transition`}
+      className={`flex flex-col gap-4 rounded-xl border border-gray-600/50 p-8 shadow-xl transition`}
     >
       <img src={content.iconUrl} width={40} height={40} alt="icon" />
       <div className="flex flex-col gap-2">
