@@ -6,7 +6,7 @@ function Process() {
       sectionTitle={"My 3 Step System for Growth"}
       tagline="Growth Formula"
       sectionDescription={[
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+        `Elevate your brand in three steps Position yourself clearly, create engaging content, and craft irresistible offers.`,
       ]}
       id={"howitworks"}
     >
