@@ -15,6 +15,7 @@ import review5 from "../assets/testimonials/review5.jpeg";
 import review6 from "../assets/testimonials/review6.jpeg";
 import review7 from "../assets/testimonials/review7.jpeg";
 import review8 from "../assets/testimonials/review8.jpeg";
+import review9 from "../assets/testimonials/review9.jpeg";
 
 export const navlinks = [
   {
@@ -90,6 +91,7 @@ export const reviews = [
   review6,
   review7,
   review2,
+  review9,
 ];
 
 export const process = [
