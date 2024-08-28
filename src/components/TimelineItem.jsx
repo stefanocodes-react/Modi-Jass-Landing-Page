@@ -16,7 +16,7 @@ const TimelineItem = ({ item }) => {
           {item.title}
         </h3>
         <img
-          className=" md:max-w-[400px] m-auto lg:mt-0 lg:ml-0"
+          className=" z-30 md:max-w-[400px] m-auto lg:mt-0 lg:ml-0"
           src={item.img}
           alt={`${item.title} illustration`}
         />
