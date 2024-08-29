@@ -4,7 +4,6 @@ const Faq = ({ question }) => {
   const [isQuestionOpen, setIsQuestionOpen] = useState(false);
   const toggleQuestion = () => {
     setIsQuestionOpen((isOpen) => !isOpen);
-    console.log(isQuestionOpen);
   };
   return (
     <>
