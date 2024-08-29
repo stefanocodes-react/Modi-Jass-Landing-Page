@@ -1,5 +1,5 @@
 import Button from "./Button";
-import logo from "../assets/hero/modipfp.png";
+import logo from "../assets/hero/modipfp.webp";
 import { navlinks } from "../constants/index.js";
 import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
