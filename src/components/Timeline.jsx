@@ -1,23 +1,7 @@
 import TimelineItem from "./TimelineItem.jsx";
 import { process } from "../constants/index.js";
-import { useEffect, useRef } from "react";
-import {
-  motion,
-  useInView,
-  useMotionValueEvent,
-  useScroll,
-  useTransform,
-} from "framer-motion";
 
 const Timeline = () => {
-  const timelineRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: timelineRef,
-    offset: ["start", "end", "start", "end"],
-  });
-
-  const rotate = useTransform(scrollYProgress, [0, 1], ["0deg", "100deg"]);
-
   return (
     <div className="relative flex flex-col gap-20 pt-24 md:16">
       {process.map((item, idx) => (
@@ -32,9 +16,7 @@ const Timeline = () => {
           id="timeline-center"
           className="col-span-1 row-span-2 w-[20px] md:w-auto flex justify-center items-center z-10"
         >
-          <motion.div
-            ref={timelineRef}
-            style={{ rotate }}
+          <div
             className={` w-4 h-4
           absolute top-0 m-auto bg-white rounded-full z-10 border-2
           border-black`}

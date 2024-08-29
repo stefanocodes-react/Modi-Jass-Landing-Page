@@ -1,7 +1,11 @@
 import Button from "./Button";
 import smiles from "../assets/vectors/Smiles.svg";
+import daniel from "../assets/vectors/daniel.webp";
+import blake from "../assets/vectors/blake.webp";
+import dan from "../assets/vectors/dan.webp";
+import chris from "../assets/hero/review_pic_chris.jpg";
 import growAudienceVector from "../assets/vectors/HeroVector.svg";
-
+import rating from "../assets/vectors/rating_star.svg";
 const Header = ({ toggleModal }) => {
   return (
     <header className="relative" id="home">
@@ -32,11 +36,50 @@ const Header = ({ toggleModal }) => {
             buttonType={"secondary"}
           />
         </div>
-        <div className="flex flex-wrap border items-center justify-center border-white/20 px-2 py-1.5 gap-2 rounded-md">
-          <img src={smiles} alt="happy faces of previous customers" />
-          <p className="leading-8 text-sm pointer-events-none select-none">
-            50+ reviews
-          </p>
+        <div className="flex flex-col items-center justify-center gap-1">
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-row gap-[2px]">
+              <img src={rating} alt="rating star" className="h-3 w-3" />
+              <img src={rating} alt="rating star" className="h-3 w-3" />
+              <img src={rating} alt="rating star" className="h-3 w-3" />
+              <img src={rating} alt="rating star" className="h-3 w-3" />
+              <img src={rating} alt="rating star" className="h-3 w-3" />
+            </div>
+            <p className="leading-8 tracking-wide text-sm text-gray-400 pointer-events-none select-none">
+              5/5 out of 50+ reviews
+            </p>
+          </div>
+
+          <div className="flex">
+            <img
+              width={200}
+              height={200}
+              className="w-9 h-9 rounded-full"
+              src={chris}
+              alt="happy faces of previous customers"
+            />
+            <img
+              width={200}
+              height={200}
+              src={daniel}
+              className="w-9 h-9 rounded-full"
+              alt="happy  faces of previous customers"
+            />
+            <img
+              width={200}
+              height={200}
+              src={blake}
+              className="w-9 h-9 rounded-full"
+              alt="happy faces of previous customers"
+            />
+            <img
+              width={200}
+              height={200}
+              className="w-9 h-9 rounded-full"
+              src={dan}
+              alt="happy faces of previous customers"
+            />
+          </div>
         </div>
         <div>
           <img src={growAudienceVector} alt="" />

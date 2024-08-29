@@ -27,8 +27,8 @@ function App() {
         <InitialSocialProof />
         <Problem />
         <Solution />
-        <Results />
         <Process />
+        <Results />
         <FrequentlyAskedQuestions />
         <FinalCta />
         <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} />
