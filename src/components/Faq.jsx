@@ -31,9 +31,10 @@ const Faq = ({ question }) => {
             isQuestionOpen
               ? `visible opacity-100 max-h-[6rem] mb-3`
               : `invisible opacity-0 max-h-0`
-          } relative overflow-hidden transition-all text-gray-300 font`}
+          } relative overflow-hidden transition-all text-gray-300 font-satoshi`}
         >
           {question.answer}
+          {/* comment */}
         </div>
       </div>
     </>
