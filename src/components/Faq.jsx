@@ -35,6 +35,7 @@ const Faq = ({ question }) => {
         >
           {question.answer}
           {/* comment */}
+          {/* second comment */}
         </div>
       </div>
     </>
