@@ -20,12 +20,14 @@ const Solution = () => {
             <Card key={solution.id} content={solution} />
           ))}
         </div>
-        {/* TODO: add CTA */}
         <div className=" mt-8 flex items-center justify-center">
           <Button
-            children={"Let's Build My Brand"}
-            // buttonType={"primary"}
-          ></Button>
+            href={
+              "https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200"
+            }
+          >
+            Let's Build My Brand
+          </Button>
         </div>
       </Section>
     </>

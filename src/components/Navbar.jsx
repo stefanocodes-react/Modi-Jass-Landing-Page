@@ -33,7 +33,12 @@ const Navbar = () => {
         </div>
 
         <div className="hidden items-center gap-4 sm:flex">
-          <Button buttonType={"primary"}>Get Started Today!</Button>
+          <Button
+            buttonType={"primary"}
+            href={`https://x.com/messages/compose?text=Dates&recipient_id=1572288735714099200`}
+          >
+            Get Started Today!
+          </Button>
         </div>
       </div>
     </div>
