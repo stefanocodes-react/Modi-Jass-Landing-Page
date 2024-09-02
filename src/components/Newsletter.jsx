@@ -18,19 +18,9 @@ const Newsletter = () => {
             </h3>
             <div>
               <ul className="flex flex-col gap-4 mt-4 text-base  font-satoshi font-light ">
-                <li>
-                  📝 Weekly newsletter with insights and resources to help you
-                  grow your brand and snag clients
-                </li>
-                <li>📚 Free guide about content creation and growing on X</li>
-                <li>
-                  📢 Access to a private community of 80+ members who are also
-                  growing their brands and snagging clients
-                </li>
-                <li>
-                  🎁 Exclusive access to resources and tools to help you grow
-                  your brand and snag clients
-                </li>
+                {newsletter.map((item, id) => (
+                  <li key={id}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>

@@ -57,6 +57,12 @@ const Footer = () => {
             icon
           />
         </div>
+        <div className="flex items-center justify-center mt-4">
+          <a href="https://kaizenmedia.site" target="_blank">
+            Developed by <span className="text-color-red">Kaizen media</span>{" "}
+            with ❤️
+          </a>
+        </div>
       </div>
     </footer>
   );

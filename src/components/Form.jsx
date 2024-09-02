@@ -41,7 +41,7 @@ const Form = ({ formStyles, buttonContent = `grab your free copy` }) => {
         onChange={(e) => setUser({ ...user, email: e.target.value })}
         required
       />
-      <button className="capitalize" type="submit">
+      <button className="capitalize font-satoshi font-medium" type="submit">
         {buttonContent}
       </button>
     </form>
