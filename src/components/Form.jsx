@@ -26,7 +26,7 @@ const Form = ({ formStyles, buttonContent = `grab your free copy` }) => {
         onChange={(e) => {
           setUser({ ...user, name: e.target.value });
         }}
-        placeholder="Name"
+        placeholder="Your Name"
         aria-label="First name"
         id="ck-first-name"
         required
@@ -34,7 +34,7 @@ const Form = ({ formStyles, buttonContent = `grab your free copy` }) => {
       <input
         type="email"
         name="email_address"
-        placeholder="Enter your email address"
+        placeholder="Your Email"
         aria-label="Email"
         id="ck-email"
         value={user.email}

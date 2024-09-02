@@ -24,7 +24,7 @@ const Newsletter = () => {
               </ul>
             </div>
           </div>
-          <div className="bg-color-modal/80 flex flex-1 flex-col items-center justify-center gap-4 p-8">
+          <div className="bg-color-modal/80 flex flex-1 flex-col items-center justify-center gap-4 p-8 rounded-lg overflow-hidden ">
             <img
               className="rounded-full"
               src={Modi}
@@ -33,8 +33,8 @@ const Newsletter = () => {
               alt=""
             />
             <Form
-              formStyles={`bg-transparent w-full rounded-lg`}
-              buttonContent={"sign up to newsletter"}
+              formStyles={`bg-transparent w-full`}
+              buttonContent={"become a member"}
             />
           </div>
         </div>
