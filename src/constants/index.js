@@ -166,10 +166,8 @@ export const footer = [
   },
 ];
 export const newsletter = [
-  `📝 Weekly newsletter with insights and resources to help you grow your brand and snag clients`,
   `📚 Free guide about content creation and growing on X`,
-  `📢 Access to a private community of 80+ members who are also growing their brands and snagging clients
-`,
-  `🎁 Exclusive access to resources and tools to help you grow your brand and snag clients`,
+  `📢 Access to a private community of 80+ members who are also growing their brands and snagging clients`,
+  `🎁 Exclusive access to resources and tools that I personally use to grow my brand and get clients`,
 ];
 export default reviews;

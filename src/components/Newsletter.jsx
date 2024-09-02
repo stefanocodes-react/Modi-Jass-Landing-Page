@@ -14,10 +14,10 @@ const Newsletter = () => {
         <div className="z-1 flex flex-col md:flex-row items-center justify-center max-w-[60rem] gap-8 py-8">
           <div className="flex flex-col items-start px-4 md:px-0 md:items-start justify-center flex-[1.25]">
             <h3 className="text-left text-2xl md:text-3xl font-medium font-clash">
-              What you will get:
+              Daily insights and resources to help you grow your brand
             </h3>
             <div>
-              <ul className="flex flex-col gap-4 mt-4 text-base  font-satoshi font-light ">
+              <ul className="flex pl-2 flex-col gap-4 mt-4 text-base  font-satoshi font-light ">
                 {newsletter.map((item, id) => (
                   <li key={id}>{item}</li>
                 ))}
