@@ -36,6 +36,7 @@ const Faq = ({ question }) => {
           {question.answer}
           {/* comment */}
           {/* second comment */}
+          {/* stefano connected */}
         </div>
       </div>
     </>
