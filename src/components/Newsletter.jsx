@@ -7,7 +7,7 @@ const Newsletter = () => {
     <Section
       tagline={"newsletter"}
       sectionTitle={`Join my Private Community of 80+ members`}
-      id={"newsletter"}
+      id="newsletter"
     >
       <div className="mt-10 flex gap-8 justify-center relative">
         <div className="absolute rounded-lg inset-0 z-0 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#1d1d2e_40%,#2f468c_100%)]"></div>

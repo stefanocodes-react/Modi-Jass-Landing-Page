@@ -31,8 +31,9 @@ const Header = ({ toggleModal }) => {
             buttonType={"primary"}
           />
           <Button
-            children={"Grab Your Free Guide"}
-            onClick={toggleModal}
+            children={"join my private community"}
+            href={"#newsletter"}
+            // onClick={toggleModal}
             buttonType={"secondary"}
           />
         </div>
