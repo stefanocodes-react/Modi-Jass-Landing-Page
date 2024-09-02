@@ -33,7 +33,7 @@ const Newsletter = () => {
               alt=""
             />
             <Form
-              formStyles={`bg-transparent w-full`}
+              formStyles={`bg-transparent w-full rounded-lg`}
               buttonContent={"sign up to newsletter"}
             />
           </div>
