@@ -34,9 +34,6 @@ const Faq = ({ question }) => {
           } relative overflow-hidden transition-all text-gray-300 font-satoshi`}
         >
           {question.answer}
-          {/* comment */}
-          {/* second comment */}
-          {/* stefano connected */}
         </div>
       </div>
     </>
