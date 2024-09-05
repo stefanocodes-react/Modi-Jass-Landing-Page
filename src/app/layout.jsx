@@ -13,7 +13,7 @@ export const metadata = {
     siteName: "Modi Jass",
     images: [
       {
-        url: "/assets/hero/modi.png",
+        url: "/public/modi.png",
       },
     ],
   },
