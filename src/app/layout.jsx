@@ -1,6 +1,4 @@
-"use server";
 import "./globals.css";
-
 export const metadata = {
   metadataBase: new URL("https://www.moayadj.com"),
   title: "Modi Jass | Monetize on X",
