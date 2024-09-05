@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           content="https://www.moayadj.com/modipfp.webp"
         />
         <meta
-          name="twitter:image"
+          property="twitter:image"
           content="https://www.moayadj.com/modipfp.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
