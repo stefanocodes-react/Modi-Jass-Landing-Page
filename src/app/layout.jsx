@@ -21,7 +21,10 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="https://www.moayadj.com/modi.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://www.moayadj.com/modi.png" />
-        <meta name="twitter:title" content="Modi Jass" />
+        <meta
+          name="twitter:title"
+          content="Modi Jass | Monetize on X i will help you build and scale your brand"
+        />
         <meta
           name="twitter:description"
           content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
