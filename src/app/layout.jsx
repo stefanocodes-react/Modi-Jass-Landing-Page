@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="twitter:image"
-          content="https://www.moayadj.com/modipfp3.png"
+          content="https://www.moayadj.com/modipfp.webp"
         />
       </head>
       <body>{children}</body>
