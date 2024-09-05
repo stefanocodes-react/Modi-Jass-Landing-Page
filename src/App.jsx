@@ -1,23 +1,21 @@
-import "./App.css";
-import Header from "./components/Header.jsx";
+import React from "react";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Newsletter from "./components/Newsletter.jsx";
 import InitialSocialProof from "./components/InitialSocialProof.jsx";
 import Problem from "./components/Problem.jsx";
 import Solution from "./components/Solution.jsx";
-// import LeadMagnet from "./components/LeadMagnet.jsx";
 import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 import FinalCta from "./components/FinalCta.jsx";
-import Footer from "./components/Footer.jsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
-import Navbar from "./components/Navbar.jsx";
-import Newsletter from "./components/Newsletter.jsx";
+
 function App() {
   return (
     <>
       <Navbar />
-      <Header />
       <main className="bg-color-body">
         <Newsletter />
         <InitialSocialProof />
@@ -27,7 +25,6 @@ function App() {
         <Results />
         <FrequentlyAskedQuestions />
         <FinalCta />
-        {/* <LeadMagnet isOpen={isOpen} toggleModal={toggleModal} /> */}
       </main>
       <Footer />
       <SpeedInsights />
