@@ -11,16 +11,7 @@ export default function RootLayout({ children }) {
         />
         <meta property="og:url" content="https://www.moayadj.com/" />
         <meta property="og:site_name" content="Modi Jass" />
-        <meta
-          property="og:image"
-          content="https://marcelweb.com/assets/img/og.png"
-        />
-        <link
-          rel="icon"
-          href="/src/favicon.png"
-          type="image/x-icon"
-          sizes="100x100"
-        />
+        <meta property="og:image" content="/src/assets/modipfp.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Modi Jass" />
         <meta
