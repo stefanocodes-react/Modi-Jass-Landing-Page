@@ -15,15 +15,15 @@ export default function RootLayout({ children }) {
           property="og:image"
           content="https://www.moayadj.com/modipfp.webp"
         />
+        <meta
+          name="twitter:image"
+          content="https://www.moayadj.com/modipfp.webp"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Modi Jass" />
         <meta
           name="twitter:description"
           content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.moayadj.com/modipfp.webp"
         />
       </head>
       <body>{children}</body>
