@@ -1,6 +1,5 @@
 import "./globals.css";
 export const metadata = {
-  title: "Modi Jass | Monetize on X",
   description:
     "Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days",
 };
@@ -8,6 +7,25 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Modi Jass | Monetize on X</title>
+        <meta
+          name="description"
+          content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
+        />
+        <meta property="og:url" content="https://www.moayadj.com/" />
+        <meta property="og:site_name" content="Modi Jass" />
+        <meta
+          property="og:image"
+          content="https://marcelweb.com/assets/img/og.png"
+        />
+        <link
+          rel="icon"
+          href="/src/app/assets/hero/favicon.png"
+          type="image/png"
+          sizes="100x100"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
