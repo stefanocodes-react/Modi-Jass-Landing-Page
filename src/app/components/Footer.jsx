@@ -2,12 +2,13 @@ import { RiTwitterXLine } from "react-icons/ri";
 import profile from "../assets/vectors/modipfp3-bg-removed.png";
 import { footer } from "../constants/index.js";
 import Button from "./Button.jsx";
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer id="footer" className="bg-color-dark">
       <div className=" container px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
-          <img className="max-w-[10rem] rounded-lg" src={profile} alt="" />
+          <Image className="max-w-[10rem] rounded-lg" src={profile} alt="" />
         </div>
 
         <p className="mx-auto mt-2 text-3xl font-semibold max-w-md text-center leading-relaxed text-color-white">

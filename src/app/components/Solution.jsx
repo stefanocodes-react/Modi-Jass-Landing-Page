@@ -1,6 +1,6 @@
 import Card from "./Card.jsx";
 import { solutions } from "../constants/index.js";
-import Section from "../components/Section.jsx";
+import Section from "./Section.jsx";
 import Button from "./Button.jsx";
 const Solution = () => {
   return (

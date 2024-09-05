@@ -1,6 +1,7 @@
 import socialproof from "../assets/hero/initialsocialproof.png";
 import ratings from "../assets/hero/ratings.svg";
-import reviewpic from "../assets/hero/review_pic_chris.jpg";
+import ReviewPic from "../assets/hero/review_pic_chris.jpg";
+import Image from "next/image";
 
 const InitialSocialProof = () => {
   return (
@@ -44,9 +45,9 @@ const InitialSocialProof = () => {
         </div>
         <div className="flex flex-col items-start  mt-2">
           <div className="flex  items-center gap-2">
-            <img
+            <Image
               className="rounded-full bg-cover object-fit"
-              src={reviewpic}
+              src={ReviewPic}
               width={32}
               alt=""
             />

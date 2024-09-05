@@ -1,5 +1,6 @@
 import Button from "./Button";
-import logo from "../assets/hero/modipfp.webp";
+import Image from "next/image";
+import Logo from "../assets/hero/modipfp.webp";
 import { navlinks } from "../constants/index.js";
 import NavItems from "./NavItems.jsx";
 // TODO: make the nav fixed
@@ -13,8 +14,8 @@ const Navbar = () => {
             href="#home"
           >
             <span className="sr-only">Home</span>
-            <img
-              src={logo}
+            <Image
+              src={Logo}
               className="rounded-full"
               width={48}
               height={48}

@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "./Card.jsx";
 import { problems } from "../constants/index.js";
-import Section from "../components/Section.jsx";
-import arrowDown from "../assets/vectors/arrow-down.svg";
+import Section from "./Section.jsx";
+import ArrowDown from "../assets/vectors/arrow-down.svg";
+import Image from "next/image.js";
 const Problem = () => {
   return (
     <Section
@@ -22,7 +23,7 @@ const Problem = () => {
         ))}
       </div>
       <div className="flex flex-col items-center justify-center mt-4">
-        <img src={arrowDown} width={32} height={32} alt="" />
+        <Image src={ArrowDown} width={32} height={32} alt="" />
       </div>
     </Section>
   );

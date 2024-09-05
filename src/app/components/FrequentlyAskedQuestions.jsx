@@ -2,6 +2,7 @@ import Faq from "./Faq";
 import Section from "./Section";
 import { questions } from "../constants";
 import graphic from "../assets/vectors/arrow-right.svg";
+import Image from "next/image";
 const FrequentlyAskedQuestions = () => {
   return (
     <section
@@ -13,7 +14,7 @@ const FrequentlyAskedQuestions = () => {
           sectionTitle={`Frequently Asked Questions`}
           className={`pt-0 pb-0 self-start px-0 md:max-w-[25rem] text-left`}
         />
-        <img
+        <Image
           className="hidden lg:block lg:absolute lg:bottom-[-3.5rem] lg:right-[-1rem]"
           src={graphic}
           width={128}

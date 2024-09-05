@@ -9,10 +9,10 @@ import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 import FinalCta from "./components/FinalCta.jsx";
-import { SpeedInsights } from "@vercel/speed-insights/react";
-import { Analytics } from "@vercel/analytics/react";
+// import { SpeedInsights } from "@vercel/speed-insights/next";
+// import { Analytics } from "@vercel/analytics/next";
 import Header from "./components/Header.jsx";
-function App() {
+export default function Home() {
   return (
     <>
       <Navbar />
@@ -28,10 +28,8 @@ function App() {
         <FinalCta />
       </main>
       <Footer />
-      <SpeedInsights />
-      <Analytics />
+      {/* <SpeedInsights /> */}
+      {/* <Analytics /> */}
     </>
   );
 }
-
-export default App;

@@ -1,5 +1,6 @@
+"use client";
 import { useState } from "react";
-const REACT_FORM_ID = import.meta.env.VITE_FORM_KEY;
+const REACT_FORM_ID = 6724635;
 const Form = ({ formStyles, buttonContent = `grab your free copy` }) => {
   const [user, setUser] = useState({
     name: "",

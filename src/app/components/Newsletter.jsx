@@ -1,7 +1,8 @@
 import Form from "./Form.jsx";
-import Section from "./Section";
+import Section from "./Section.jsx";
 import Modi from "../assets/hero/modipfp.webp";
 import { newsletter } from "../constants/index.js";
+import Image from "next/image.js";
 const Newsletter = () => {
   return (
     <Section
@@ -25,7 +26,7 @@ const Newsletter = () => {
             </div>
           </div>
           <div className="bg-color-modal/80 flex flex-1 flex-col items-center justify-center gap-4 p-8 rounded-lg overflow-hidden ">
-            <img
+            <Image
               className="rounded-full"
               src={Modi}
               width={128}

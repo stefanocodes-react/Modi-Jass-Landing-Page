@@ -1,6 +1,7 @@
 import Section from "./Section";
 import vector from "../assets/vectors/faqGraphic.svg";
 import Button from "./Button";
+import Image from "next/image";
 const FinalCta = () => {
   return (
     <Section id={"cta"}>
@@ -19,7 +20,7 @@ const FinalCta = () => {
         </div>
         <div className="absolute -z-1 bottom-0 right-[50%] lg:right-[-10%] top-[50%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,255,255,0.15),rgba(255,255,255,0))]"></div>
         <div className="absolute -z-1 bottom-0 left-[50%] lg:top-[50%] lg:left-[-10%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,255,255,0.15),rgba(255,255,255,0))]"></div>
-        <img
+        <Image
           className="max-w-[13rem] md:max-w-[18rem] lg:max-w-[22rem]"
           src={vector}
           alt=""

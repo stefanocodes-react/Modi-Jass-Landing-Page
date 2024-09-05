@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const TimelineItem = ({ item }) => {
   return (
     // timeline left
@@ -15,7 +17,7 @@ const TimelineItem = ({ item }) => {
         <h3 className="sr-only text-3xl text-center lg:text-left font-semibold text-gray-100">
           {item.title}
         </h3>
-        <img
+        <Image
           className=" z-30 md:max-w-[400px] m-auto lg:mt-0 lg:ml-0"
           src={item.img}
           alt={`${item.title} illustration`}
