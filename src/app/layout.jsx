@@ -1,35 +1,26 @@
 import "./globals.css";
+
+export const metadata = {
+  metadataBase: new URL("https://www.moayadj.com"),
+  title: "Modi Jass | Monetize on X",
+  description:
+    "Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days",
+  openGraph: {
+    title: "Modi Jass",
+    description:
+      "Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days",
+    url: "https://www.moayadj.com",
+    siteName: "Modi Jass",
+    images: [
+      {
+        url: "/assets/hero/modi.png",
+      },
+    ],
+  },
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>Modi Jass | Monetize on X</title>
-        <meta
-          name="description"
-          content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
-        />
-        <meta
-          property="og:description"
-          content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
-        />
-        <meta
-          property="og:title"
-          content="Modi Jass | Monetize on X i will help you scale your brand"
-        />
-        <meta property="og:url" content="https://www.moayadj.com/" />
-        <meta property="og:site_name" content="Modi Jass" />
-        <meta property="og:image" content="https://www.moayadj.com/modi.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://www.moayadj.com/modi.png" />
-        <meta
-          name="twitter:title"
-          content="Modi Jass | Monetize on X i will help you build and scale your brand"
-        />
-        <meta
-          name="twitter:description"
-          content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
-        />
-      </head>
       <body>{children}</body>
     </html>
   );
