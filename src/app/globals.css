@@ -13,7 +13,7 @@
 
 :root {
   --font-satoshi: "Satoshi", sans-serif;
-  --font-clash: "Clash Display", sans-serif;
+  --font-clash: "Satoshi", sans-serif;
   color-scheme: dark;
 
 }
