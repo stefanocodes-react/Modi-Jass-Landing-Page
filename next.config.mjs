@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 
-const withFonts = require("next-fonts");
-module.exports = withFonts();
 const nextConfig = {
   eslint: {
     // Warning: This allows production builds to successfully complete even if
