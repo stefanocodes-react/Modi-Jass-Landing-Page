@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
           name="twitter:description"
           content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
         />
+        <meta
+          name="twitter:image"
+          content="https://www.moayadj.com/modipfp3.png"
+        />
       </head>
       <body>{children}</body>
     </html>
