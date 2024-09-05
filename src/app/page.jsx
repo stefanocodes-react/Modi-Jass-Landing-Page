@@ -12,7 +12,7 @@ import Footer from "./components/Footer.jsx";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <Header />
       <main className="bg-color-body">
@@ -26,6 +26,6 @@ export default function Home() {
         <FinalCta />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
