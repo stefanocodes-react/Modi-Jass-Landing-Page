@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <meta property="og:site_name" content="Modi Jass" />
         <meta
           property="og:image"
-          content="https://www.moayadj.com/modipfp3.png"
+          content="https://www.moayadj.com/modipfp.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Modi Jass" />
