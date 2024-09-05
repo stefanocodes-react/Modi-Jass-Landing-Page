@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:title"
-          content="Modi Jass | Monetize on X i will help you build and scale your brand"
+          content="Modi Jass | Monetize on X i will help you scale your brand"
         />
         <meta property="og:url" content="https://www.moayadj.com/" />
         <meta property="og:site_name" content="Modi Jass" />
