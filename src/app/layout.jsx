@@ -17,10 +17,16 @@ export default function RootLayout({ children }) {
         />
         <link
           rel="icon"
-          href="/src/app/assets/hero/favicon.png"
-          type="image/png"
+          href="/src/favicon.png"
+          type="image/x-icon"
           sizes="100x100"
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Modi Jass" />
+        <meta
+          name="twitter:description"
+          content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
+        ></meta>
       </head>
       <body>{children}</body>
     </html>
