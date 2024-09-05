@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 import Header from "./components/Header.jsx";
 import InitialSocialProof from "./components/InitialSocialProof.jsx";
 import Problem from "./components/Problem.jsx";
@@ -14,7 +13,6 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar.jsx";
 import Newsletter from "./components/Newsletter.jsx";
-
 function App() {
   return (
     <>
