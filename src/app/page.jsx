@@ -1,6 +1,5 @@
-import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
 import Newsletter from "./components/Newsletter.jsx";
 import InitialSocialProof from "./components/InitialSocialProof.jsx";
 import Problem from "./components/Problem.jsx";
@@ -9,9 +8,8 @@ import Process from "./components/Process.jsx";
 import Results from "./components/Results.jsx";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx";
 import FinalCta from "./components/FinalCta.jsx";
-// import { SpeedInsights } from "@vercel/speed-insights/next";
-// import { Analytics } from "@vercel/analytics/next";
-import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+
 export default function Home() {
   return (
     <>
@@ -28,8 +26,6 @@ export default function Home() {
         <FinalCta />
       </main>
       <Footer />
-      {/* <SpeedInsights /> */}
-      {/* <Analytics /> */}
     </>
   );
 }
