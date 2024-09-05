@@ -8,6 +8,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Monetize on X I help you build and scale your brand create better content and sign more clients with my 3-step system in 30 days"
         />
+        <meta property="og:title" content="Modi Jass | Monetize on X" />
         <meta property="og:url" content="https://www.moayadj.com/" />
         <meta property="og:site_name" content="Modi Jass" />
         <meta
