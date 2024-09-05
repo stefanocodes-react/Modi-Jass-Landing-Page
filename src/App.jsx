@@ -11,11 +11,12 @@ import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.jsx"
 import FinalCta from "./components/FinalCta.jsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
-
+import Header from "./components/Header.jsx";
 function App() {
   return (
     <>
       <Navbar />
+      <Header />
       <main className="bg-color-body">
         <Newsletter />
         <InitialSocialProof />
